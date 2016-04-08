@@ -1,0 +1,32 @@
+<header class="mdl-layout__header mdl-layout--small-screen-only">
+  <div class="mdl-layout-icon"></div>
+  <div class="mdl-layout__header-row">
+    <!-- Title -->
+    <div class="mdl-layout-title" style="margin-left:15px;margin-right:20px;">
+      <img src="images/stsi_corner_logo_200x61.png" width="100" height="30"><br>
+    </div>
+    <div>
+      <span class="mdl-layout-title">
+        Lowering Barriers<br>to Open Data
+      </span>
+    </div>
+    <!-- <div class="mdl-layout-spacer"></div> -->
+  </div>
+</header>
+
+<div class="mdl-layout__drawer noprint">
+  <div class="mdl-layout-title">
+    <img src="images/stsi_corner_logo_200x61.png" width="150" height="46"><br>
+  </div>
+  <div class="mdl-layout-title">
+    <span class="wp-title">Lowering Barriers<br>to Open Data</span>
+    <br><em>an STSI White Paper</em>
+  </div>
+  <nav class="mdl-navigation">
+  {% for section in site.sections %}
+    <a class="mdl-navigation__link" href="#{{section.title}}">{{section.title}}</a>
+  {% endfor %}
+  </nav>
+  <div class="mdl-layout-spacer"></div>
+  
+</div>
