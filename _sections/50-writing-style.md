@@ -10,13 +10,9 @@ title: Writing Style
 
 ## Specific Rules
 
-Rule | Bad Example(s) | Good Example(s)
---- | --- | ---
-| Use direct (non-mushy) wording | STSI will work to... <br> STSI intends to... <br>We understand that some PMM type deliverables are more applicable... | STSI will... <br> Some PMM deliverables are more applicable…
+| Rule | Bad Example(s) | Good Example(s) |
+| --- | --- | --- |
+| Use direct (non-mushy) wording | STSI will work to... <br> STSI intends to... <br>We understand that some PMM type deliverables are more applicable... | STSI will... <br> Some PMM deliverables are more applicable... |
+| Active voice | Artifacts are created... | Analysts create artifacts |
+| Plain language | With a high multitude of documents and artifacts available... | With many artifacts available... |
 
-Active voice
-Artifacts are created…
-Analysts create artifacts
-Plain language
-With a high multitude of documents and artifacts available…
-With many artifacts available…
