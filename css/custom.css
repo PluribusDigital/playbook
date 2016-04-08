@@ -53,8 +53,10 @@ div.paper-title .paper-subtitle {
 /* ================
    TABLES 
    ================ */
-table {
-   border: 1px solid #999;
+td {
+   border: 1px solid #999; 
+   margin: 0px 0px 0px 0px;
+   padding: 3px 3px 3px 3px;
 }
 th {
    text-align: left;
