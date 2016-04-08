@@ -51,6 +51,15 @@ div.paper-title .paper-subtitle {
 }
 
 /* ================
+   TABLES 
+   ================ */
+table {
+   border: 1px solid #999;
+}
+
+   
+
+/* ================
    NAV 
    ================ */
 
