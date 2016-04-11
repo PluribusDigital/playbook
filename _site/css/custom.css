@@ -49,6 +49,33 @@ div.paper-title .paper-subtitle {
   font-family: 'Roboto', sans-serif;
   line-height: 1;
 }
+pre {
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+/* ================
+   TABLES 
+   ================ */
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+td, th {
+   border: 1px solid #999; 
+   margin: 0px 0px 0px 0px;
+   padding: 3px 3px 3px 3px;
+}
+th {
+   text-align: left;
+   font-weight: bold
+}
+thead th {
+  background: #333;
+  color: #fff;
+}
+
+   
 
 /* ================
    NAV 
