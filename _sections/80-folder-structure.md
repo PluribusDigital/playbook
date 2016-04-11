@@ -38,3 +38,4 @@ Notes:
 
   * [DATE] is in YYYY_MM_DD format (e.g. "2013_12_25")
   * Organization under Proposals/[Opportunity Name] can be multiple levels. Target customers would have a dedicated folder, and probably subfolders for major initiatives (FDIC/ITAS-II, FDIC/Outsourcing). Others would be simply by agency or agency group (Defense).
+  * The `9*_[Followup Submission Name]_[Date]/` folders are for things like BAFO, questions from government, etc. (e.g. "91_Questions_from_Agency_2015_10_21" or "92_BAFO_2015_10_30")
