@@ -12,7 +12,11 @@ title: Writing Style
 
 | Rule | Bad Example(s) | Good Example(s) |
 | --- | --- | --- |
-| Use direct (non-mushy) wording | STSI will work to... <br> STSI intends to... <br>We understand that some PMM type deliverables are more applicable... | STSI will... <br> Some PMM deliverables are more applicable... |
+| Direct (non-mushy) phrasing | STSI will work to... <br> STSI intends to... <br>We understand that some PMM type deliverables are more applicable... | STSI will... <br> Some PMM deliverables are more applicable... |
+| Present tense | The PM will then update the plan... | The PM updates the plan... |
 | Active voice | Artifacts are created... | Analysts create artifacts |
 | Plain language | With a high multitude of documents and artifacts available... | With many artifacts available... [see also](https://xkcd.com/1133/) |
 
+Notes:
+
+ * Past tense is appropriate for experience citations, since the activity did occur in the past
