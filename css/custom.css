@@ -3,6 +3,7 @@
    ================ */
 body {
   font-family: 'PT Serif', serif;
+  color: #000 !important;
 }
 h1, h2 {
   font-size: 2.5em;
