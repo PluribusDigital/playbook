@@ -14,6 +14,7 @@ Proposals/
     15_Shared_Team_Library/    #=> (SHARE) General docs to be shared across all team members
     [Specific Procurement]/    #=> example names: "RFP_2015_10_15", "RFI_2015_05_05"
       20_From_Government/      #=> (SHARE) procurement docs issued by government
+      30_Question_to_Gov       #=> draft and submitted STSI questions regarding RFP
       50_Pricing/              #=> pricing source files
         Team_Input/
           SubA/                #=> can be shared w/ subs individually for input, data calls, collaboration
