@@ -12,7 +12,7 @@ title: Writing Style
 > 
 > (v) Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
 > 
-> (vi) Break any of these rules sooner than say anything outright barbarous.” 
+> (vi) Break any of these rules sooner than say anything outright barbarous.
 > 
 > *― George Orwell, Politics and the English Language*
 
