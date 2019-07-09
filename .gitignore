@@ -4,6 +4,7 @@
 *.sw[nop]
 .bundle
 .env
+_site
 db/*.sqlite3
 log/*.log
 rerun.txt
