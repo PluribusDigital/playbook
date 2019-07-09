@@ -1,5 +1,6 @@
-# proposal-guide
-STSI guide to writing, editing, managing proposals
+# STSI Playbooks
+
+Documentation on how we do things.
 
 In pretty form at: [stsilabs.github.io/proposal-guide](http://stsilabs.github.io/proposal-guide/) 
 
