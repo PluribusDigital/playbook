@@ -1,13 +1,8 @@
 ---
 layout: default
-title: STSI Proposal Guide
+title: Playbooks
 ---
 
-
-{% for section in site.sections %}
-  <a name="{{section.title}}"></a>
-  <div class="paper-section">
-    <h2>{{section.title}}</h2>
-    {{section.output}}
-  </div>
+{% for topic in site.topics %}
+  <p><strong><a href="{{topic.url}}">{{ topic.title }}</a></strong><br />{{topic.description}}</p>
 {% endfor %}

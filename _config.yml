@@ -1,2 +1,16 @@
 collections:
-  - sections
+  sections:
+    output: false
+  topics:
+    output: true
+
+defaults:
+  - scope:
+      path: "_sections/hiring/interviewing"
+    values:
+      topic: "interviewing"
+  - scope:
+      path: "_sections/proposals"
+    values:
+      topic: "proposal"
+  

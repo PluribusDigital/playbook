@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="section-header">
+<h1>STSI PLAYBOOK: {{page.title}}</h1>
+<p><em>{{page.description}}</em></p>
+</div>
+
+{% assign sections = site.sections | where: "topic", page.topic %}
+{% for section in sections %}
+  <a name="{{section.title}}"></a>
+  <div class="paper-section">
+    <h2>{{section.title}}</h2>
+    {{section.output}}
+  </div>
+{% endfor %}

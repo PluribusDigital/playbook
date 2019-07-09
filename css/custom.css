@@ -2,24 +2,33 @@
    BASICS 
    ================ */
 body {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   color: #000 !important;
 }
 .mdl-color-text--grey-700 {
-   color: #000 !important;
+  color: #000 !important;
 }
-h1, h2 {
+h1,
+h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
-h1 {margin-top: 0px;}
-strong {font-weight: bolder;}
+h1 {
+  margin-top: 0px;
+  font-family: "PT Serif", serif;
+}
+strong {
+  font-weight: bolder;
+}
+div.section-header {
+  color: #666;
+}
 
 div.paper-title {
-  background: url('../images/capitol-drawing.jpg');
+  background: url("../images/capitol-drawing.jpg");
   background-color: #666;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -27,12 +36,12 @@ div.paper-title {
 .paper-title-content {
   padding: 20px;
   color: #fff;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 div.paper-title h1 {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   text-transform: none;
-  font-size:4em;
+  font-size: 4em;
   line-height: 1;
   text-shadow: 2px 2px 4px #000;
 }
@@ -42,15 +51,15 @@ div.paper-title small {
   text-align: right;
   /*background-color: rgba(0,0,0,.3);*/
   text-shadow: 0px 0px 2px #000;
-  padding:5px;
-  padding-top:20px;
+  padding: 5px;
+  padding-top: 20px;
 }
 div.paper-title .paper-subtitle {
   margin-top: 3em;
-  font-size:2em;
+  font-size: 2em;
   text-shadow: 0px 0px 2px #000;
-  background-color: rgba(0,0,0,.3);
-  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Roboto", sans-serif;
   line-height: 1;
 }
 pre {
@@ -65,21 +74,20 @@ table {
   border-spacing: 0px;
   border-collapse: collapse;
 }
-td, th {
-   border: 1px solid #999; 
-   margin: 0px 0px 0px 0px;
-   padding: 3px 3px 3px 3px;
+td,
+th {
+  border: 1px solid #999;
+  margin: 0px 0px 0px 0px;
+  padding: 3px 3px 3px 3px;
 }
 th {
-   text-align: left;
-   font-weight: bold
+  text-align: left;
+  font-weight: bold;
 }
 thead th {
   background: #333;
   color: #fff;
 }
-
-   
 
 /* ================
    NAV 
@@ -90,7 +98,7 @@ thead th {
   color: rgb(66, 66, 66);
 }
 .mdl-layout-title {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -99,7 +107,7 @@ thead th {
 }
 
 div.mdl-layout__drawer {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /*width: 270px;*/
   background-color: #fff;
   padding-top: 20px;
@@ -107,16 +115,16 @@ div.mdl-layout__drawer {
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link,
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
   font-size: 1.5em;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-weight: normal;
   /*text-transform: uppercase;*/
 }
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: #ED4936;
-  color:#fff;
+  background-color: #ed4936;
+  color: #fff;
 }
-.mdl-layout__drawer>.mdl-layout-title {
-  font-family: 'PT Serif', serif;
+.mdl-layout__drawer > .mdl-layout-title {
+  font-family: "PT Serif", serif;
   font-size: 1em;
   line-height: 20px;
   margin-top: 10px;
@@ -124,6 +132,10 @@ div.mdl-layout__drawer {
 .wp-title {
   font-size: 1.8em;
   font-weight: bold;
+}
+.wp-title a {
+  text-decoration: none;
+  color: #666;
 }
 .sidebar-content {
   padding-left: 40px;
@@ -135,21 +147,20 @@ div.mdl-layout__drawer {
   }
 }
 
-
-
 /* ================
    PULL QUOTES
    ================ */
-blockquote, .pullquote {
-  float:right;
+blockquote,
+.pullquote {
+  float: right;
   width: 33%;
   color: #fff;
   background-color: #444;
   border: 1px solid #444;
   border-radius: 10px;
-  padding:15px;
-  margin:20px;
-  position:relative;
+  padding: 15px;
+  margin: 20px;
+  position: relative;
 }
 .pullquote {
   margin-top: 20px;
@@ -157,38 +168,41 @@ blockquote, .pullquote {
   margin-left: 70px;
 }
 .pullquote:before {
-   content:"";
-   position: absolute;
-   top: 100%;
-   left: 26px;
-   width: 0;
-   height: 0;
-   border-left: 13px solid transparent;
-   border-top: 26px solid #444;
-   border-right: 13px solid transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 26px;
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-top: 26px solid #444;
+  border-right: 13px solid transparent;
 }
-.pullquote .quotetext, blockquote {
+.pullquote .quotetext,
+blockquote {
   font-size: 20px;
   font-style: italic;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
-.pullquote .quotetext:before, blockquote:before {
-  content: '\201C';
+.pullquote .quotetext:before,
+blockquote:before {
+  content: "\201C";
   font-size: 30px;
   line-height: 20px;
-  left:3px;
-  color:#aaa;
+  left: 3px;
+  color: #aaa;
 }
-.pullquote .quotetext:after, blockquote:after {
-  content: '\201D';
+.pullquote .quotetext:after,
+blockquote:after {
+  content: "\201D";
   font-size: 20px;
   line-height: 20px;
-  color:#aaa;
+  color: #aaa;
 }
 blockquote {
-  float:none;
+  float: none;
   width: 90%;
-  padding-left:25px;
+  padding-left: 25px;
   font-size: 1.2em;
 }
 .pullquote .quotesource {
@@ -200,22 +214,23 @@ blockquote {
 }
 
 .highlight-pullout {
-  float:right;
+  float: right;
   width: 33%;
-  color: #ED4936;
-  padding:0px;
+  color: #ed4936;
+  padding: 0px;
   margin: 20px;
   margin-left: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5em;
   font-weight: normal;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {
-  .pullquote, .highlight-pullout {
+  .pullquote,
+  .highlight-pullout {
     width: 90%;
-    float:none;
+    float: none;
     margin: 10px;
   }
   .pullquote {
@@ -230,7 +245,8 @@ blockquote {
   padding: 10px;
   margin-left: 20px;
 }
-.chevron, .chevron-a {
+.chevron,
+.chevron-a {
   position: relative;
   height: 30px;
   width: 60px;
@@ -240,44 +256,54 @@ blockquote {
   padding-left: 0px;
   padding-right: 10px;
   padding-top: 10px;
-  background-color: #ED4936;
+  background-color: #ed4936;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 .chevron:before {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   width: 0px;
   height: 0px;
   line-height: 0px;
-  border: 20px solid #ED4936;
+  border: 20px solid #ed4936;
   border-left: 20px solid transparent;
   right: 100%;
   top: 0em;
 }
 .chevron:after {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   width: 0px;
   height: 0px;
   line-height: 0px;
   border: 20px solid transparent;
-  border-left: 20px solid #ED4936;
+  border-left: 20px solid #ed4936;
   top: 0px;
   left: 100%;
-}​
+}
+​
 
 
 /* ================
    PRINTING
    ================ */
+
+ul, ol, p, h1, h2, h3, h4, table {
+  page-break-inside: avoid;
+}
+
+h1, h2, h3, h4 {
+  page-break-after: avoid;
+}
+
 .printheader {
-  display:none;
-  font-family: 'Roboto', sans-serif;
+  display: none;
+  font-family: "Roboto", sans-serif;
   font-size: 1.4em;
   margin-left: 2em;
   margin-bottom: 1em;
@@ -286,22 +312,16 @@ blockquote {
 }
 
 @media print {
-
   .noprint {
     display: none !important;
   }
 
   .printheader {
-    display:block !important;
+    display: block !important;
   }
 
-  .paper-section {
-    page-break-after: always;
-  }
-
-  h2 {page-break-before:always;}
-
-  div.mdl-layout, main {
+  div.mdl-layout,
+  main {
     overflow: visible;
   }
 
@@ -312,17 +332,16 @@ blockquote {
   }
 
   div.page-content {
-    padding-left:3em !important;
-    padding-right:3em !important;
-    padding-top:0em !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    padding-top: 0em !important;
   }
 
   h1 {
-    margin-top:0px !important;
+    margin-top: 0px !important;
   }
 
   body {
     background-color: #fff !important;
   }
-
 }
