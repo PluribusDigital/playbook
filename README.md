@@ -2,7 +2,7 @@
 
 Documentation on how we do things.
 
-In pretty form at: [playbook.stsiinc.com](http://playbook.stsiinc.com/) 
+In pretty form at: [playbook.stsiinc.com](http://playbook.stsiinc.com/)
 
 ## Organization of Content
 

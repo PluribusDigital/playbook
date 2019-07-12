@@ -13,4 +13,7 @@ defaults:
       path: "_sections/proposals"
     values:
       topic: "proposal"
-  
+  - scope:
+      path: "_sections/development"
+    values:
+      topic: "development"
