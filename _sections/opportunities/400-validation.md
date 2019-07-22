@@ -13,7 +13,7 @@ We research opportunities and validate them against set criteria in order to aid
 ### Validation Criteria Checklist
 
 * __STSI FIT__
-  - [ ] Target client
+  - [ ] Target customer (see below)
   - [ ] Focus service area / technology
   - [ ] Comparable qualifications
 * __INSIGHT__

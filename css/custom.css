@@ -151,6 +151,19 @@ div.mdl-layout__drawer {
 }
 
 /* ================
+   ASSORTED STYLE TWEAKS 
+   ================ */
+
+ul.task-list {
+  list-style-type: none;
+  padding-left: 2em;
+}
+li.task-list-item input[type='checkbox'] {
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+}
+
+/* ================
    PULL QUOTES
    ================ */
 blockquote,
