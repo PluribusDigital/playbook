@@ -6,11 +6,14 @@ collections:
 
 defaults:
   - scope:
-      path: "_sections/hiring/interviewing"
-    values:
-      topic: "interviewing"
-  - scope:
       path: "_sections/proposals"
     values:
       topic: "proposal"
-  
+  - scope:
+      path: "_sections/development"
+    values:
+      topic: "development"
+  - scope:
+      path: "_sections/opportunities"
+    values:
+      topic: "opportunities"
