@@ -12,7 +12,14 @@ The basic model is as follows:
 
 * __Sections__: Each topic is comprised of multiple sections, each rendered under a heading.
 
-## Editing
+## Making Changes
+
+The steps to make a change are to:
+
+1. Create a GitHub issue, using the correct issue template and tags, to document what needs to be updated and why
+2. Fork the repository or create a branch
+3. Make the edits
+4. Create a pull request into the `gh-pages` branch
 
 To make edits, add or update files in the `_sections` directory. Note: the formatting is based on [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) syntax. 
 
