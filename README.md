@@ -1,16 +1,8 @@
 # STSI Playbooks
 
-Documentation on how we do things.
+Documentation on how we do things - the "source code" for our organization.
 
 In pretty form at: [playbook.stsiinc.com](http://playbook.stsiinc.com/)
-
-## Organization of Content
-
-The basic model is as follows:
-
-* __Topics__: A topic is the higher-level item, corresponding to one larger guide, rendered as a single long page.
-
-* __Sections__: Each topic is comprised of multiple sections, each rendered under a heading.
 
 ## Making Changes
 
@@ -24,6 +16,14 @@ The steps to make a change are to:
 To make edits, add or update files in the `_sections` directory. Note: the formatting is based on [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) syntax. 
 
 Sections will be ordered by the alpha sort of the file name. Therefore, by prefixing file names with a number, we can control the order.
+
+## Organization of Content
+
+The basic model is as follows:
+
+* __Topics__: A topic is the higher-level item, corresponding to one larger guide, rendered as a single long page.
+
+* __Sections__: Each topic is comprised of multiple sections, each rendered under a heading.
 
 ## Adding Topics
 
