@@ -1,3 +1,7 @@
+---
+title: Slack Guide
+---
+
 ### Setting up Slack 
 
 STSI’s slack url is https://stsiinc.slack.com  
