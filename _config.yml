@@ -17,3 +17,7 @@ defaults:
       path: "_sections/opportunities"
     values:
       topic: "opportunities"
+  - scope:
+      path: "_sections/slack"
+    values:
+      topic: "slack"
