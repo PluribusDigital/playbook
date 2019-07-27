@@ -2,9 +2,19 @@
 
 Documentation on how we do things - the "source code" for our organization.
 
-In pretty form at: [playbook.stsiinc.com](http://playbook.stsiinc.com/)
+## Guides :notebook:
 
-## Making Changes
+The following guides outline how we operate.
+
+* __Deliveryw__
+  * [Software Development](delivery/software-dev.md) - high-level guide to creating software
+* __Communications__
+  * [Slack](communications/slack.md) - how we use Slack to collaborate
+* __Growth__
+  * [Opportunity Tracking](growth/opportunities.md) - how we track business development opportunities
+  * [Proposals](growth/proposals) - how we together, internally or with team members, to produce a propsal
+
+## Making Changes :pencil2:
 
 The steps to make a change are to:
 

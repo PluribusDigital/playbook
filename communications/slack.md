@@ -1,6 +1,6 @@
----
-title: Slack Guide
----
+# Slack Guide
+
+We use Slack for internal communication. This guide helps you get the most out of it and establishes some expectations on how to be a good citizen.
 
 ### Setting up Slack 
 
