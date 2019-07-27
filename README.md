@@ -21,7 +21,7 @@ The steps to make a change are to:
 1. Create a GitHub issue, using the correct issue template and tags, to document what needs to be updated and why
 2. Fork the repository or create a branch
 3. Make the edits
-4. Create a pull request into the `gh-pages` branch
+4. Create a pull request into the `master` branch
 
 _Note: GitHub makes steps 2-4 rather easy via the web interface. Simply start editing a file, then when it is time to save select the option to create a branch and PR. If you have more changes coming, you can create a Draft PR instead. You can then work on that new branch you created to finalize your batch of changes._
 
