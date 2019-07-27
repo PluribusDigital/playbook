@@ -65,7 +65,7 @@ We use MS Word to author proposals. Some rules on formatting options and gotcha'
  * _Be candid_: We would rather hear about problems from our reviewers, than in a loss debrief. Snark in comments doesn't help, but direct, critical, candid feedback is always welcome.
  * _Include the Good_: Cite specific positive feedback for important well-done points ("This point really hits home and makes our approach seem real and practical", "This graphic really boils down the approach well and makes it easy to understand") so that authors don't edit out anything good when correcting the bad.
 
-### Colors
+### "Color Team" Reviews
 
 STSI is less formal than most. We typically perform only Red and Gold reviews. 
 
