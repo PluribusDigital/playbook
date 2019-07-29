@@ -2,6 +2,14 @@
 
 We use Slack for internal communication. This guide helps you get the most out of it and establishes some expectations on how to be a good citizen.
 
+## TL/DR
+
+> * Avoid using @channel, @everyone, or @here until you are accustomed to how it works.
+> * Set up Slack on your mobile device and computer as fits your needs.
+> * Carefully tune notificaitons to suit your needs.
+
+## Detailed Guide
+
 ### Setting up Slack 
 
 STSI’s slack url is https://stsiinc.slack.com  
@@ -61,6 +69,10 @@ Examples of BAD Slack usage:
 * Storing/referencing documents. Use a file store (box/onedrive) and link to it from slack. 
 
 ### Channels, Messaging, etc. 
+
+#### Group Mentions
+
+Slack has a few special keywords for mentioning large groups. Be careful about how you use `@everyone`, `@channel`, or `@here`. You don't want to make a bunch of phones buzz or computers chime for no good reason.
 
 #### Direct Messages 
 
