@@ -100,6 +100,7 @@ The value of an opportunity is based on the __expected value calculation__ (prob
 - [ ] __Probability to Win__: Based on the competitive landscape, what are our chances (<5%, 10-25%, 50%, 75+%)?
 
 - [ ] __Value__: How much is it worth to us if we win?
+  - _Great work:_ is this a mission and scope of work that aligns to our purpose? Will we be proud to talk about the work?
   - _Expected profit:_ consider both the estimated revenue, as well as potential profit margin (usually rate structure/rate competitiveness)
   - _Growth potential:_ is this the foot in the door for a new client, or an opportunity with substantial likelihood of follow-on work?
   - _Prime/Sub:_ prime opportunities (including CTA member, JV member) are far more attractive than work as a sub.
