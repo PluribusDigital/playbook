@@ -144,7 +144,7 @@ We write code to test our code. It sounds like double-work but saves a ton of ti
 * _Passing Tests:_ We believe that code is not ready for review until all the tests are passing
 * _Testing as a start:_ A great way to familiarize yourself with an existing project is to run the tests and add missing coverage.  This will give you experience building, running and understanding the code while contributing to the overall health of the project.
 
-## Build Tools
+## Build Process & Tools
 
 There's app code, then there's code that helps us write the code. Some languages are compiled, but many interpreted (not compiled) languages are still not run directly from your source code. These build tools handle all kinds of grunt work to help us work faster and handle the needs of different environments. 
 
@@ -169,6 +169,7 @@ A Continuous Integration (CI) process looks for changes in the code (i.e. new co
 ### Key Concepts
 * _Source of truth:_ Sometimes, you may write code that works on your machine, only to discover that it doesn't work on other machines. There may be a forgotton configuation or pre-condition that prevents it from running smoothly or at all. A CI server can act as an impartial judge of whether the code base works by building, installing and testing each change.  Unless it works on the CI server, it doesn't _work_.
 * _Automated build:_ Having a server rebuild the codebase after every change means that the entire build process has to be scripted.  While this requires that the development team has to gain some fluency with operational concepts like environment configuration and bash scripts, it makes sure that the build process is well-understood, consistent and version-controlled.
+* _Dependency security audit_: Dependencies (borrowed libraries of code) are a primary vector for the introduction of security vulnerabilities in your app. Well-maintained libraries release patch-level versions to fix vulnerabilities. Tools like `npm audit` and capabilities of tools like Artifactory and Nexus allow the audit of depenecies to find such inherited vulnerabilities. 
 * _Automated tests:_ Once the codebase is built, the server should be able to run a suite of tests to validate the functionality and verify nothing has broken.  Again, this will rely on scripts to initialize the environment and execute the tests.
 * _Capture Metrics:_ If the test suite ran successfully, the CI server can use other tools to measure code coverage, code complexity, compliance with style and a host of other metrics that can be tracked to show how the code has changed, and hopefully, improved over time.
 * _Validate pull requests:_ A CI server can be used as the first step in a PR review process.  Before other developers get a chance to review the code, it can be automatically built, tested and measured.  This frees up the development team to perform high-quality review tasks only after the low-level checks have succeeded.
@@ -176,6 +177,9 @@ A Continuous Integration (CI) process looks for changes in the code (i.e. new co
 ### The STSI Way
 * _Use a CI server:_ There are several free CI servers available.  We use [Travis](https://travis-ci.org/STSILABS) or [CircleCI](https://circleci.com/gh/STSILABS) for open source projects, and those or others for customer work.  These should be configured to build and test every pull request.
 * _Metrics:_ Depending on the application, it may be important to use analyzers to check code quality.  In the past we have used [Code Climate](https://codeclimate.com/) to perform static analysis and [Coveralls](https://coveralls.io/github/STSILABS) to track code coverage.  Both of these tools should be integrated with the CI server during PR builds.
+* _Perform security scans_: Static code analysis products like the above code quality tools, or standalone security scan solutions, should be used to find potentially unsecure code (i.e. of the code that we write).
+* _Enforce security audits_: Dependency audit results of high severity should "break the build", and not allow the app to progress to deployment. This is generally a quick fix (updating the library to the latest patch version), but could occasionally result in replacing a library that is not well maintained enough to issue fixes.
+
 
 ## Deployment
 
