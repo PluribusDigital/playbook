@@ -113,11 +113,15 @@ The value of an opportunity is based on the __expected value calculation__ (prob
 
 We typically pursue opportunities as part of a team of firms. This allows us to bring a larger set of capabilities and capacity to better serve a customer.
 
+### Prefer Trusted Teaming Partners
+
+_We highly prefer to work with firms we know._ Although a "marriage of convenience" may look good on paper, working with an unproven partner adds cost and uncertainty to the proposal process, and may add delivery risk. Trust amplifies our efficiency and effectiveness. If we are beginning a new teaming relationship, we must look extra closely at the fit and validation items below.
+
 ### Team Fit Checklist
 
 For a given opportunity, a team member must provide some value to the opportunity via one or more of the following qualities. Each quality should benefit the eventual _delivery_ and tie to proposal _evaluation crtieria_.
 
-- [ ] Focus on _delivery quality_ and _purpose_ is consistent with our own
+- [ ] Cultural focus on _delivery quality_ and _purpose_ is consistent with our own
 - [ ] Add _delivery capabilities or capacity_ that we lack, or that would reduce delivery risk
 - [ ] Bring _customer relationships and insights_ that allow us to craft a better fitting solution for the customer
 - [ ] Bring specific relevant _past performance_ or _corporate experience_
