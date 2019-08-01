@@ -74,16 +74,17 @@ We research opportunities and validate them against set criteria in order to aid
 
 ### Validation Criteria Checklist
 
-* __STSI FIT__
+* __STSI FIT__ - We are only so big, and can only track a targeted portion of the market. Does the client, mission, and scope of work fit our own mission and service areas? Is this work we will be proud to share?
+  - [ ] Mission alignment
   - [ ] Target client
   - [ ] Focus service area / technology
   - [ ] Comparable qualifications
-* __INSIGHT__
+* __INSIGHT__ - If we don’t understand the customer and environment, it is hard to put in a great proposal. Do we have relationships and points of contact at the agency? Have we had some engagement with the customer? 
   - [ ] We have relationships/PoCs
-* __COMPETITION__
+* __COMPETITION__ - If the playing field isn’t level, we aren’t likely to play. Is the opportunity “wired” for a certain firm, or is incumbency a major advantage for other reasons.
   - [ ] No favored incumbent
   - [ ] Small business preference/set-aside
-* __PRICING__
+* __PRICING__ - In order to bring the right talent, properly invest in our employees, and stay salary-competitive over time, we need a reasonable rate structure to work under. Is the evaluation criteria focused on capability or price? Is this in danger of being a “price shootout” or being procured as LPTA?
   - [ ] Not price shootout or LPTA
   - [ ] Not blind FFP (high pricing risk)
 
