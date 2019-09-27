@@ -18,9 +18,7 @@ This page is intended to share the vital info that might be needed by STSI staff
 
 ### White on Transparent
 
-<div style="background-color: #000">
-   <img src="STSI_white_200x65.png" />
-</div>
+![STSI White Logo](white-logo-preview.png)
 
 [Large Logo White-on-transparent 1865 x 603px](STSI_white_large.png)
 
