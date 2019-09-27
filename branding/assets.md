@@ -13,7 +13,10 @@ Solution Technology Systems, Inc. (STSI) is a small, steadily growing digital se
 ... | Additional Details
 ------- | -----
 Full Company Name | Solution Technology Systems, Inc.
+URL | [https://stsiinc.com/](https://stsiinc.com/)
 Address | 1600 Wilson Blvd, Suite 1300 <br /> Arlington, VA 22209
+Twitter | [@stsiinc](https://twitter.com/stsiinc)
+LinkedIn | [STSI](https://www.linkedin.com/company/stsi/)
 DUNS | 92-775-5033
 CAGE Code | 1TAD9
 GSA Schedule 70 Contract | GS‐35F‐404DA
