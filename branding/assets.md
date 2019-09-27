@@ -27,6 +27,8 @@ GSA Schedule 70 Contract | GS‐35F‐404DA
 
 ![STSI Color Logo](stsi_logo_200.png)
 
+[PDF Vector Logo](stsi_corner%20logo.pdf)
+
 [Large Color Logo PNG - 1356 x 438px](stsi_logo_large.png)
 
 [Small Color Logo PNG - 200 x 65px](stsi_logo_200.png)
