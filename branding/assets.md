@@ -8,10 +8,22 @@ This page is intended to share the vital info that might be needed by STSI staff
 
 ## Logos
 
-### Color Logo
+### Color
 
-![STSI Color Logo](STSI_logo_200.png)
+![STSI Color Logo](stsi_logo_200.png)
 
 [Large Color Logo PNG - 1356 x 438px](stsi_logo_large.png)
 
-[Medium Color Logo PNG - ]()
+[Small Color Logo PNG - 200 x 65px](stsi_logo_200.png)
+
+### White on Transparent
+
+<div style="background-color: #000">
+   <img src="STSI_white_200x65.png" />
+</div>
+
+[Large Logo White-on-transparent 1865 x 603px](STSI_white_large.png)
+
+[Mediu Logo White-on-transparent 500 x 162px](STSI_white_500x162.png)
+
+[Small Logo White-on-transparent 200 x 65px](STSI_white_200x65.png)
