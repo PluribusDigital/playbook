@@ -60,7 +60,7 @@ Today, a fairly accurate, open source OCR engine is available to anyone through 
 
 ### Tools
 
-1. [Tessearct](https://github.com/tesseract-ocr/tesseract) - The OCR engine
+1. [Tesseract](https://github.com/tesseract-ocr/tesseract) - The OCR engine
 1. [Pillow](https://python-pillow.org/) - A library for reading images
 1. [pytesseract](https://github.com/madmaze/pytesseract) - A wrapper for Tesseract
 
