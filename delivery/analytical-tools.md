@@ -31,12 +31,14 @@ import requests
 from bs4 import BeautifulSoup
 
 # Get the HTML page
-r = requests.get('http://some.thing')
+r = requests.get('https://en.wikipedia.org/wiki/Grace_Hopper')
 
 soup = BeautifulSoup(r.content, "html.parser")
 
 # The string that goes in `soup.select` will be specific to each web page
-for section in soup.select('.article-body section'):
+# It can be found by right-clicking on the main text and choosing "Inspect"
+# to get the style path
+for section in soup.select('div.mw-parser-output p'):
     print(section.get_text())
 ```
 
@@ -44,7 +46,7 @@ for section in soup.select('.article-body section'):
 
 ## Extract text from an image
 
-__skill level__ Beginner
+__skill level__ Beginner to Advanced
 
 ### Goals
 ### Tools
