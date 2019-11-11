@@ -88,10 +88,33 @@ print(pytesseract.image_to_string(image))
 
 __skill level__ Beginner to Intermediate
 
+Computers are fast, but not that smart.
+Some processes will go faster, or yield better results if they are fed prepared data.
+
 ### Goals
+
+1. Convert text to ASCII.  This can be as simple as removing "smart quotes" from a Word document
+1. Convert text to lowercase
+1. Remove punctuation
+1. Remove excess whitespace
+1. Remove stopwords
+1. Find [lemmas](https://en.wikipedia.org/wiki/Lemma_(morphology)#Lexicography)
+1. Apply [stemming](https://en.wikipedia.org/wiki/Stemming)
+
 ### Tools
+
+1. [spaCy](https://spacy.io/) - An open-source NLP toolkit
+1. [nltk](https://www.nltk.org/) - The original NLP toolkit started at Stanford University
+
 ### Examples
+
+1. https://github.com/susanli2016/NLP-with-Python/blob/master/Cleaning%20Text.ipynb
+1. https://github.com/STSILABS/uscis-bdso-demo/blob/issue-3/jupyter/src/toolkit/to_sentences.py
+1. https://github.com/JeffreyMFarley/hew/blob/master/hew/normalizer.py
+
 ### Further reading
+
+1. :grin:
 
 ---
 
