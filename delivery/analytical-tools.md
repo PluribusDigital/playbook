@@ -85,16 +85,138 @@ print(pytesseract.image_to_string(image))
 ---
 
 ## Cleaning text
+
+__skill level__ Beginner to Intermediate
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Match similar strings into a common form
+
+__skill level__ Beginner to Intermediate
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Find clusters in the data
+
+__skill level__ Intermediate to Advanced
+
+### Goals
+### Tools
+### Examples
+
+1. https://github.com/JeffreyMFarley/clustersplaining
+
+### Further reading
+
+---
+
 ## Find the topics of a document
+
+__skill level__ Intermediate
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## See what items frequently occur together
+
+__skill level__ Intermediate to Advanced
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Highlight the proper nouns of a document
+
+
+__skill level__ Beginner to Intermediate
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Categorize words
+
+__skill level__ Intermediate to Advanced
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Determine if text is "positive" or "negative"
+
+__skill level__ Beginner to Advanced
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Scrape information from one form and input into another
+
+__skill level__ Beginner to Advanced
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Predict what text should be displayed next
+
+
+__skill level__ Beginner to Advanced
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Generate text similar to an existing set of documents
+
+__skill level__ Beginner to Advanced
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
 ## Determine how two things are related
 
+
+__skill level__ Beginner to Advanced
+
+### Goals
+### Tools
+### Examples
+### Further reading
 
