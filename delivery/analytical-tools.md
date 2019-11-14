@@ -122,8 +122,19 @@ Some processes will go faster, or yield better results if they are fed prepared 
 
 __skill level__ Beginner to Intermediate
 
+Is "NY Yankees" the same as "New York Yankees"? 
+A sports fan would think so, but a computer wouldn't.
+Similar to the "cleaning" process above, finding the "canonical form" will improve the speed an accuracy of the text mining.
+
 ### Goals
+
+1. Take a list of phrases and create a mapping to their canonical form
+
 ### Tools
+
+1. 
+
+
 ### Examples
 ### Further reading
 
