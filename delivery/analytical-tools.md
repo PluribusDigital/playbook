@@ -79,8 +79,8 @@ print(pytesseract.image_to_string(image))
 
 ### Further reading
 
-1. https://en.wikipedia.org/wiki/Tesseract_(software)
-1. https://github.com/tmbdev/ocropy
+1. [Information on Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software))
+1. [A more advanced OCR setup](https://github.com/tmbdev/ocropy)
 
 ---
 
@@ -112,10 +112,6 @@ Some processes will go faster, or yield better results if they are fed prepared 
 1. https://github.com/STSILABS/uscis-bdso-demo/blob/issue-3/jupyter/src/toolkit/to_sentences.py
 1. https://github.com/JeffreyMFarley/hew/blob/master/hew/normalizer.py
 
-### Further reading
-
-1. :grin:
-
 ---
 
 ## Match similar strings into a common form
@@ -132,11 +128,14 @@ Similar to the "cleaning" process above, finding the "canonical form" will impro
 
 ### Tools
 
-1. 
+1. [Fuzzy Wuzzy](https://github.com/seatgeek/fuzzywuzzy) - A library built by SeatGeek for this scenario
 
-
-### Examples
 ### Further reading
+
+1. [An article by SeatGeek explaining how it works](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)
+1. [Trying to match hotel room descriptions](https://github.com/susanli2016/NLP-with-Python/blob/master/Fuzzy%20String%20Matching.ipynb)
+1. [My attempt to have a REST API for canonicalization](https://github.com/STSILABS/canyonero)
+1. [An explanation of string distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
 
 ---
 
