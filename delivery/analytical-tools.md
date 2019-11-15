@@ -44,6 +44,39 @@ for section in soup.select('div.mw-parser-output p'):
 
 ---
 
+## Extract text from a PDF
+
+__skill level__ Beginner
+
+Besides HTML pages, a lot of text is available in PDF form.
+Rather than "select all, copy and paste" using a PDF reader, it would be better to use an automated script to pull out the text.
+
+Note: This technique will not work if the PDF is based on scanned images.  Extracting text from an image is covered in the next section.
+
+### Goals
+
+1. Extract plain text from a PDF file
+
+### Tools
+
+1. [PyPDF2](https://github.com/mstamy2/PyPDF2) - A python package for navigating PDF documents
+
+### Examples
+
+```python
+import PyPDF2
+ 
+pdfName = 'path/to/some.pdf'
+read_pdf = PyPDF2.PdfFileReader(pdfName)
+ 
+for i in range(read_pdf.getNumPages()):
+    page = read_pdf.getPage(i)
+    content = page.extractText()
+    print(i, content)
+```
+
+---
+
 ## Extract text from an image
 
 __skill level__ Beginner to Advanced
@@ -98,8 +131,6 @@ Some processes will go faster, or yield better results if they are fed prepared 
 1. Remove punctuation
 1. Remove excess whitespace
 1. Remove stopwords
-1. Find [lemmas](https://en.wikipedia.org/wiki/Lemma_(morphology)#Lexicography)
-1. Apply [stemming](https://en.wikipedia.org/wiki/Stemming)
 
 ### Tools
 
@@ -114,7 +145,62 @@ Some processes will go faster, or yield better results if they are fed prepared 
 
 ---
 
-## Match similar strings into a common form
+
+## Tagging the words of a document
+
+__skill level__ Beginner
+
+The first step in any NLP process is figuring out the parts of speech in every sentence.
+This process is known as [tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging).
+Tagging figures out whether a specific word is a noun or a verb (or adjective or adverb).
+
+This process is never 100% correct, but the available open source engines do a reasonable job on standard text.
+
+### Goals
+
+1. Determine the part of speech for every word in a document
+
+### Tools
+
+1. [spaCy](https://spacy.io/) - An open-source NLP toolkit
+1. [nltk](https://www.nltk.org/) - The original NLP toolkit started at Stanford University
+
+### Examples
+
+```python
+import io
+import spacy
+
+# Load a previous trained-model
+nlp = spacy.load('en_core_web_sm')
+
+# Open a text file
+with io.open(infile, 'r', encoding='utf-8') as f:
+    raw = f.read()
+
+# Process the raw text into a document
+doc = nlp(raw)
+
+for token in doc:
+    print("Word:", token.text, "Part of Speech:" token.pos_)
+
+```
+
+---
+
+## Highlight the proper nouns of a document
+
+
+__skill level__ Beginner to Intermediate
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
+---
+
+## Reduce similar strings into a common form
 
 __skill level__ Beginner to Intermediate
 
@@ -125,6 +211,8 @@ Similar to the "cleaning" process above, finding the "canonical form" will impro
 ### Goals
 
 1. Take a list of phrases and create a mapping to their canonical form
+1. Find [lemmas](https://en.wikipedia.org/wiki/Lemma_(morphology)#Lexicography)
+1. Apply [stemming](https://en.wikipedia.org/wiki/Stemming)
 
 ### Tools
 
@@ -167,18 +255,6 @@ __skill level__ Intermediate
 ## See what items frequently occur together
 
 __skill level__ Intermediate to Advanced
-
-### Goals
-### Tools
-### Examples
-### Further reading
-
----
-
-## Highlight the proper nouns of a document
-
-
-__skill level__ Beginner to Intermediate
 
 ### Goals
 ### Tools
