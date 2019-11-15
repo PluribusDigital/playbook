@@ -112,7 +112,7 @@ print(pytesseract.image_to_string(image))
 
 ### Example 2 - Extract text from a PDF image
 
-```
+```python
 import PyPDF2
 import pytesseract
 from PIL import Image
