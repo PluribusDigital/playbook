@@ -97,7 +97,7 @@ Today, a fairly accurate, open source OCR engine is available to anyone through 
 1. [Pillow](https://python-pillow.org/) - A library for reading images
 1. [pytesseract](https://github.com/madmaze/pytesseract) - A wrapper for Tesseract
 
-### Examples
+### Example 1 - Extract text from an image file 
 
 ```python
 import os
@@ -108,6 +108,30 @@ import pytesseract
 image = PIL.Image.open(local_file)
 
 print(pytesseract.image_to_string(image))
+```
+
+### Example 2 - Extract text from a PDF image
+
+```
+import PyPDF2
+import pytesseract
+from PIL import Image
+
+pdfName = 'path/to/some.pdf'
+read_pdf = PyPDF2.PdfFileReader(pdfName)
+page = read_pdf.getPage(0)
+xObject = page['/Resources']['/XObject'].getObject()
+
+for obj in xObject:
+    if xObject[obj]['/Subtype'] == '/Image':
+        size = (xObject[obj]['/Width'], xObject[obj]['/Height'])
+        data = xObject[obj].getData()
+        if xObject[obj]['/ColorSpace'] == '/DeviceRGB':
+            mode = "RGB"
+        else:
+            mode = "P"
+        image = Image.frombytes(mode, size, data)
+        print(pytesseract.image_to_string(image))
 ```
 
 ### Further reading
