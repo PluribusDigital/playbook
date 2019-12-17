@@ -16,7 +16,7 @@ A team means you have to work with people, which requires communication and coor
 
 We have to track the stuff we're all doing, so that we know what each team member is working on, and what comes next. New system capabilities can be represented as user stories. We generally start with a very short description ("As a ... I want the ability to do ... so that I can ..."), and then build out more information.
 
-Teams can use a physical board (i.e. post-it notes on the wall), or more commonly a work tracking software. Popular specialized software includes JIRA and GitHub Issues. Other general purpose tools like Trello can also work. Any tool allows us to track key elements including:
+Teams can use a physical board (i.e. post-it notes on the wall), or more commonly a work tracking software. Popular specialized software includes JIRA and GitHub Issues. Other general purpose tools like Trello can also work. Any tool that allows us to track key elements including:
 
  * Title
  * Size/points
@@ -167,9 +167,9 @@ A Continuous Integration (CI) process looks for changes in the code (i.e. new co
 
 
 ### Key Concepts
-* _Source of truth:_ Sometimes, you may write code that works on your machine, only to discover that it doesn't work on other machines. There may be a forgotton configuation or pre-condition that prevents it from running smoothly or at all. A CI server can act as an impartial judge of whether the code base works by building, installing and testing each change.  Unless it works on the CI server, it doesn't _work_.
+* _Source of truth:_ Sometimes, you may write code that works on your machine, only to discover that it doesn't work on other machines. There may be a forgotten configuration or pre-condition that prevents it from running smoothly or at all. A CI server can act as an impartial judge of whether the code base works by building, installing and testing each change.  Unless it works on the CI server, it doesn't _work_.
 * _Automated build:_ Having a server rebuild the codebase after every change means that the entire build process has to be scripted.  While this requires that the development team has to gain some fluency with operational concepts like environment configuration and bash scripts, it makes sure that the build process is well-understood, consistent and version-controlled.
-* _Dependency security audit_: Dependencies (borrowed libraries of code) are a primary vector for the introduction of security vulnerabilities in your app. Well-maintained libraries release patch-level versions to fix vulnerabilities. Tools like `npm audit` and capabilities of tools like Artifactory and Nexus allow the audit of depenecies to find such inherited vulnerabilities. 
+* _Dependency security audit_: Dependencies (borrowed libraries of code) are a primary vector for the introduction of security vulnerabilities in your app. Well-maintained libraries release patch-level versions to fix vulnerabilities. Tools like `npm audit` and capabilities of tools like Artifactory and Nexus allow the audit of dependencies to find such inherited vulnerabilities. 
 * _Automated tests:_ Once the codebase is built, the server should be able to run a suite of tests to validate the functionality and verify nothing has broken.  Again, this will rely on scripts to initialize the environment and execute the tests.
 * _Capture Metrics:_ If the test suite ran successfully, the CI server can use other tools to measure code coverage, code complexity, compliance with style and a host of other metrics that can be tracked to show how the code has changed, and hopefully, improved over time.
 * _Validate pull requests:_ A CI server can be used as the first step in a PR review process.  Before other developers get a chance to review the code, it can be automatically built, tested and measured.  This frees up the development team to perform high-quality review tasks only after the low-level checks have succeeded.
