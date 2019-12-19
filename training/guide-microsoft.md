@@ -10,5 +10,5 @@ Azure DevOps Assessment (18473)
 Azure Data Services (17490)
 Search the course number or select Azure in the Catalog and scroll down to locate.
 
-For any assistance contact HelpDesk@stsiinc.com.
+If you need any assistance or have any questions at all do not hesitate to ask at HelpDesk@stsiinc.com
 
