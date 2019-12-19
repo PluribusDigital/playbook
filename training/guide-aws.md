@@ -7,11 +7,11 @@ Enter the fields and be sure to use your stsiinc.com email in the “AWS Trainin
 Email HelpDesk@stsiinc.com when you complete the Self Registration and we will get you associated with STSI.
 
 Then feel free to explore and take a course below or another that interests you!
-•	For Developers:  DevOps Engineering on AWS is an online 3-day virtual course leading to certification.
-•	For Developers: AWS Certified Cloud Practitioner -  https://aws.amazon.com/certification/certified-cloud-practitioner/
-•	For Technical Oriented: AWWS Technical Professional - https://www.aws.training/Details/Curriculum?id=11276
-•	For Analysts/non-developers: AWS Cloud Practitioner Essentials is an on-demand 1 day course - https://www.aws.training/Details/Curriculum?id=27076
+*	For Developers:  DevOps Engineering on AWS is an online 3-day virtual course leading to certification
+*	For Developers: AWS Certified Cloud Practitioner -  https://aws.amazon.com/certification/certified-cloud-practitioner/
+*	For Technical Oriented: AWWS Technical Professional - https://www.aws.training/Details/Curriculum?id=11276
+*	For Analysts/non-developers: AWS Cloud Practitioner Essentials is an on-demand 1 day course - https://www.aws.training/Details/Curriculum?id=27076
 
-Any exam costs are covered by STS, go forth and learn!
+Any exam costs are covered by STSI, go forth and learn!
 
 If you need any assistance or have any questions at all do not hesitate to ask at HelpDesk@stsiinc.com
