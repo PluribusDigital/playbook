@@ -1,4 +1,4 @@
-STSI has parterend with Redhat! We encourage all employees to join our Redhat experience. Please follow the How To Access in the next step.
+STSI has partnered with Redhat! We encourage all employees to join our Redhat experience. Please follow the How To Access in the next step.
 
 How to access-
 Send an email to HelpDesk@stsiinc.com requesting an STSI Redhat account. Once created you will receive an email with instructions to login and set a password. It's really simple. 
