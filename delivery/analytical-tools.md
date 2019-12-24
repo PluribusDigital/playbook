@@ -215,7 +215,7 @@ for token in doc:
 ## Highlight the proper nouns of a document (Named Entity Recognition)
 
 Proper nouns are a good starting point for determining the "important" parts of a document,
-but it is also important to know what role the proper nouns is fulfilling.
+but it is also important to know what role the proper nouns are fulfilling.
 
 > Paris Hilton was eating at the Paris Hilton.
 
@@ -235,6 +235,28 @@ __skill level__ Beginner to Intermediate
 
 ### Examples
 
+```python
+import io
+import spacy
+from spacy import displacy
+
+# Load a previous trained-model
+nlp = spacy.load('en_core_web_sm')
+
+# Open a text file
+with io.open(infile, 'r', encoding='utf-8') as f:
+    raw = f.read()
+
+# Process the raw text into a document
+doc = nlp(raw)
+
+# Get the entities
+for ent in doc.ents:
+    print('Type of entity:', x.label_, 'named:', x.text)
+
+# Visualize
+displacy.render(doc, jupyter=True, style='ent')
+```
 
 
 ### Further reading
