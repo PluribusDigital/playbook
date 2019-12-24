@@ -212,15 +212,36 @@ for token in doc:
 
 ---
 
-## Highlight the proper nouns of a document
+## Highlight the proper nouns of a document (Named Entity Recognition)
 
+Proper nouns are a good starting point for determining the "important" parts of a document,
+but it is also important to know what role the proper nouns is fulfilling.
+
+> Paris Hilton was eating at the Paris Hilton.
+
+As humans, we read the above sentence and understand that a person was eating at a place,
+but how should a computer proceed?
 
 __skill level__ Beginner to Intermediate
 
 ### Goals
+
+1. Determine the proper nouns of a document
+1. Determine if they are a [person, place or thing](https://www.youtube.com/watch?v=DCdt8-H1BFY)
+
 ### Tools
+
+1. [spaCy](https://spacy.io/) - An open-source NLP toolkit
+
 ### Examples
+
+
+
 ### Further reading
+
+1. [Understanding the entity types and IOB](https://spacy.io/api/annotation#named-entities)
+1. [Using sklearn for Named Entity Recognition](https://github.com/susanli2016/NLP-with-Python/blob/master/NER_sklearn.ipynb)
+1. [Using BERT and TensorFlow for NER](https://github.com/kamalkraj/BERT-NER-TF)
 
 ---
 
