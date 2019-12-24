@@ -251,7 +251,7 @@ with io.open(infile, 'r', encoding='utf-8') as f:
 doc = nlp(raw)
 
 # Get the entities
-for ent in doc.ents:
+for x in doc.ents:
     print('Type of entity:', x.label_, 'named:', x.text)
 
 # Visualize
