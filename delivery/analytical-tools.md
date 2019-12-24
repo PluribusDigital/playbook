@@ -257,7 +257,7 @@ for ent in doc.ents:
 # Visualize
 displacy.render(doc, jupyter=True, style='ent')
 ```
-
+![displacy](displacy-kids.png)
 
 ### Further reading
 
