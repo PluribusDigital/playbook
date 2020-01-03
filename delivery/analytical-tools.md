@@ -42,6 +42,17 @@ for section in soup.select('div.mw-parser-output p'):
     print(section.get_text())
 ```
 
+## Extract text from a DOCX
+
+__skill level__ Beginner
+
+https://gist.github.com/etienned/7539105
+
+### Goals
+### Tools
+### Examples
+### Further reading
+
 ---
 
 ## Extract text from a PDF
