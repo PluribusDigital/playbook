@@ -21,6 +21,18 @@ DUNS | 92-775-5033
 CAGE Code | 1TAD9
 GSA Schedule 70 Contract | GS‐35F‐404DA
 
+### NAICS Codes
+
+* 518210 – Data Processing, Hosting, and Related Services
+* 541511 – Custom Computer Programming Services
+* 541512 – Computer Systems Design Services
+* 541519 – Other Computer Related Services
+* 541611 – Administrative Management and General Management Consulting Services
+* 541618 – Other Management Consulting Services
+* 541690 – Other Scientific and Technical Consulting Services
+* 541990 – All Other Professional, Scientific, and Technical Services
+* 611420 – Computer Training
+
 ## Logos
 
 ### Color
