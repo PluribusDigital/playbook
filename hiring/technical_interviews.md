@@ -30,7 +30,7 @@ At a time and place convenient to them, the candidate takes a short (< 90 min) t
 
 ### Interview
 
-In an in-person discussion or video call, the candidate speaks with one or more interviewers for a holistic deep dive. This will combine discussion on technical evaluation, team dynamics, growth desires, etc. 
+In an in-person discussion or video call, the candidate speaks with one or more interviewers for a holistic deep dive. This will combine discussion on technical evaluation, team dynamics, growth desires, etc. An interview may be broken into multiple sessions / multiple appointments based on the role. For example, a technical deep dive may be a separate discussion from meeting the team to learn more about specific project skill fit.
 
 ## Technical Evaluation Methods
 
