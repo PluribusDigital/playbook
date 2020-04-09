@@ -14,7 +14,7 @@ A team means you have to work with people, which requires communication and coor
 
 #### Work Tracking
 
-We have to track the stuff we're all doing, so that we know what each team member is working on, and what comes next. New system capabilities can be represented as user stories. We generally start with a very short description ("As a ... I want the ability to do ... so that I can ..."), and then build out more information.
+We have to track the work that we are doing, so that we know what each team member is working on, and what comes next. New system capabilities can be represented as [user stories](https://www.agilealliance.org/glossary/user-stories/). We generally start with a very short description ("As a ... I want the ability to do ... so that I can ..."), and then build out more information including the acceptance criteria for confirming completion.
 
 Teams can use a physical board (i.e. post-it notes on the wall), or more commonly a work tracking software. Popular specialized software includes JIRA and GitHub Issues. Other general purpose tools like Trello can also work. Any tool that allows us to track key elements including:
 
@@ -25,7 +25,7 @@ Teams can use a physical board (i.e. post-it notes on the wall), or more commonl
 
 #### Meetings
 
-**Standup Meeting:** Short, daily [standup meetings](https://www.martinfowler.com/articles/itsNotJustStandingUp.html) help team members understand what is going on across the team. The meeting is meant to be very short - just enough to raise key coordination questions. It shouldn't rehash what is already on the board, and should open up opportunities for serendipity and opportunities to solve problems.
+**Standup Meeting:** Short, daily [standup meetings](https://www.martinfowler.com/articles/itsNotJustStandingUp.html) help team members understand what is going on across the team. The meeting is meant to be very short (under 15 minutes)- just enough to raise key coordination questions. It shouldn't rehash what is already on the board, and should open up opportunities for serendipity and opportunities to solve problems.  If there are issues that require further discussion then can be referred to as 16th minute items, this is a nod towards the end of the standup that should end in 15 minutes.  In general the business stakeholders should be invited to attend and listen in on the standup so they can work with the delivery manager or scrum master to make decisions about reprioritization and coordinating resolving blockers.
 
 **Retrospective:** At the end of each iteration, we reflect on what worked well, and what can improve. The format can vary a bit, but certainly include versions of "What went well" and "It would be even better if...". Some include other questions like "What still puzzles me?" The point is to encourage open, honest reflection. We read the [Retrospective Prime Directive](http://retrospectivewiki.org/index.php?title=The_Prime_Directive) aloud at the start of a retro.
 
@@ -35,10 +35,9 @@ A lot of open source software is written by people who don't work in the same of
 Over the years, they have developed some conventions so that anyone starting to work on a project can orient themselves.
 Look for these files in any new project to get an idea of how to get started.
 
-`README.md` - At a minimum, most projects will have one of these files in the root.  Typically, it explains the project's purpose and how to use it.
-It may also contain information about how to install or configure your project.
+`README.md` - At a minimum, most projects will have one of these files in the root.  Typically, it explains the project's purpose, installation steps and all configuration details to start and run the project.
 
-`CONTRIBUTING.md` - This file describes how to contribute to a project.  It usually explains how issues are tracked, how pull requests are approved and any other code quality details like code coverage or linting.
+`CONTRIBUTING.md` - This file describes how to contribute to a project.  It should explains how issues are tracked, how to submit code (likely pull requests) and the process of review and approval based on code quality details (like: test coverage or linting).
 
 `INSTALL.md` - Some projects will have a separate file for installation instuctions.  The separate file will usually indicate a more involved build process or signal that the project has many more users than authors. 
 
@@ -73,7 +72,7 @@ When you want to make a set of changes, you create a branch. We follow the [gitf
 
 #### When & How to Commit, Push
 
-**Commit**: With Git, you create commits to capture a save-point of the code base. This allows you to get to that version of the code, or even pull out a single file within the codebase as of that snapshot. Commit each time you create an incremental step forward - you added something without breaking anything. In general (but not always) your tests should pass before a commit. You should commit often - generally a few times per day.
+**Commit**: With Git, you create commits to capture a save-point of the code base. This allows you to get to that version of the code, or even pull out a single file within the codebase as of that snapshot. Commit each time you create an incremental step forward - you added something without breaking anything. In general (but not always) your tests should pass before a commit. You should commit often - generally a few times per day.  Your commit messages should be short, clean and concise describing the changes made in this specific commit.
 
 **Push**: Commits happen on your local computer. That isn't part of the shared repo (e.g. GitHub.com) until you push the code to the remote repo. When you are working on a feature branch, it is generally best to push with each commit. This allows others to be able to see (or merge in) the most recent working increment of your code as needed.
 
@@ -113,7 +112,7 @@ Local developer tools are generally a matter of preference. There is no standard
 
 ## Dependency Management
 
-We never start from scratch. There are zillions of code libraries we can borrow and build upon. Package management tools do the legwork for us to find and download the right versions of the libraries and keep it all in sync when those get updated.
+We never start from scratch. There are zillions of code libraries we can borrow and build upon. Package management tools do the legwork for us to find and download the right versions of the libraries and keep it all in sync when those get updated.  Things to consider is this library or package the one the community has rallied around and is becoming the defacto standard? When was the last time this project was committed too? Does there seem to be an active community around this and do they release frequently?
 
 ### Key Concepts
 
