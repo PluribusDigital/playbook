@@ -32,7 +32,7 @@ The below diagram outlines how we track opportunities. This is broken down into 
 
 * __Bid:__ When an opportunity has an active RFP (or perhaps draft RFP with a high-confidence schedule), it goes into an active state of preparing the proposal.
 
-  * Carry out the [propsal development process](/topics/proposal.html).
+  * Carry out the [proposal development process](/topics/proposal.html).
 
 ## Identification
 
@@ -132,6 +132,6 @@ For a given opportunity, a team member must provide some value to the opportunit
 
 Before entering into any teaming agreement, we must perform some basic validation of the team member in addition to the strategic questions above.
 
-- [ ] Check SAM.gov to confirm status of firm, particularly any negative filings
+- [ ] Check [SAM.gov](https://www.sam.gov) to confirm status of firm, particularly any negative filings
 - [ ] Check with professional networks (e.g. mine common LinkedIn connections) to ideally find someone who has worked with the firm before
 - [ ] Do basic web searching to make sure there are no major public issues
