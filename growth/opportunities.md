@@ -79,6 +79,10 @@ We research opportunities and validate them against set criteria in order to aid
   - [ ] Target client
   - [ ] Focus service area / technology
   - [ ] Comparable qualifications
+* __ACCESS__ - Do we have the necessary hard quals?
+  - [ ] Contract vehicle
+  - [ ] Clearance requirements
+  - [ ] Set-aside 
 * __INSIGHT__ - If we don’t understand the customer and environment, it is hard to put in a great proposal. Do we have relationships and points of contact at the agency? Have we had some engagement with the customer? 
   - [ ] We have relationships/PoCs
 * __COMPETITION__ - If the playing field isn’t level, we aren’t likely to play. Is the opportunity “wired” for a certain firm, or is incumbency a major advantage for other reasons.
