@@ -12,6 +12,6 @@ The following guides outline how we operate.
   * [Slack](communications/slack.md) - how we use Slack to collaborate
 * __Growth__
   * [Opportunity Tracking](growth/opportunities.md) - how we track business development opportunities
-  * [Proposals](growth/proposals.md) - how we together, internally or with team members, to produce a propsal
+  * [Proposals](growth/proposals.md) - how we work together, internally or with team members, to produce a proposal
 * __Branding__
   * [Assets](branding/assets.md) - logos, company description blurbs, etc.
