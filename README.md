@@ -13,5 +13,6 @@ The following guides outline how we operate.
 * __Growth__
   * [Opportunity Tracking](growth/opportunities.md) - how we track business development opportunities
   * [Proposals](growth/proposals.md) - how we work together, internally or with team members, to produce a proposal
+  * [Terms](growth/terms.md) - the nomanclature, verbiage and acronyms associated with procurement
 * __Branding__
   * [Assets](branding/assets.md) - logos, company description blurbs, etc.
