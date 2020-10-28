@@ -4,7 +4,7 @@ This page is intended to share the vital info that might be needed by Pluribus D
 
 ## Company Description
 
-Solution Technology Systems, Inc. (STSI) is a small, steadily growing digital services firm serving the federal government. Government services are becoming less about paper and manual processing and more about providing services as great digital products. STSI helps government organizations with this digital service transformation with hands-on services.
+Pluribus Digital is a small woman-owned digital services firm serving the federal government. Government services are becoming less about paper and manual processing and more about providing services as great digital products. Pluribus helps government organizations with this digital service transformation with hands-on services.
 
 * Development: We build cloud-based digital products and modernize legacy applications to support agility and mission effectiveness.
 * DevOps: We automate technical delivery to improve quality and efficiency, and move toward a culture of automation and continuous delivery.
@@ -35,7 +35,7 @@ GSA Schedule 70 Contract | GS‐35F‐404DA
 
 ## Logos
 
-Logos are available under [/playbook/branding/](/)
+Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file. 
 
 | Logo Format | Color on White | Color on Black | Black on White | White on Black |
 | --- | --- | --- | --- | --- |
