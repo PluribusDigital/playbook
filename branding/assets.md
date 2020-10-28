@@ -1,6 +1,6 @@
 # Brand Assets
 
-This page is intended to share the vital info that might be needed by STSI staff, partners, etc. when referencing the company. For example, a partner might want our logo for a proposal, or we might need to share similar information when sponsoring an event.
+This page is intended to share the vital info that might be needed by Pluribus Digital staff, partners, etc. when referencing the company. For example, a partner might want our logo for a proposal, or we might need to share similar information when sponsoring an event.
 
 ## Company Description
 
@@ -12,11 +12,11 @@ Solution Technology Systems, Inc. (STSI) is a small, steadily growing digital se
 
 ... | Additional Details
 ------- | -----
-Full Company Name | Solution Technology Systems, Inc.
-URL | [https://stsiinc.com/](https://stsiinc.com/)
+Full Company Name | Solution Technology Systems, Inc. DBA: Pluribus Digital
+URL | [https://pluribusdigital.com/](https://pluribusdigital.com/)
 Address | 1600 Wilson Blvd, Suite 1300 <br /> Arlington, VA 22209
-Twitter | [@stsiinc](https://twitter.com/stsiinc)
-LinkedIn | [STSI](https://www.linkedin.com/company/stsi/)
+Twitter | [@pluribusd](https://twitter.com/pluribusd)
+LinkedIn | [PluribusDigital](https://www.linkedin.com/company/PluribusDigital/)
 DUNS | 92-775-5033
 CAGE Code | 1TAD9
 GSA Schedule 70 Contract | GS‐35F‐404DA
@@ -54,3 +54,43 @@ GSA Schedule 70 Contract | GS‐35F‐404DA
 [Medium Logo White-on-transparent 500 x 162px](STSI_white_500x162.png) 
 
 [Small Logo White-on-transparent 200 x 65px](STSI_white_200x65.png)
+
+## Logo/Brand Colors
+
+```
+Dark Red
+C: 15		R: 190
+M: 100		G: 30
+Y: 90		B: 45
+K: 10		#be1e2d
+
+Red
+C: 0		R: 238
+M: 90		G: 64
+Y: 85		B: 54
+K: 0		#ee4036
+
+Orange
+C: 0		R: 250
+M: 35		G: 175
+Y: 85		B: 64
+K: 0		#faaf40
+
+Turquoise
+C: 80		R: 0
+M: 0		G: 182
+Y: 20		B: 205
+K: 0		#00b6cd	
+
+Dark Blue
+C: 100		R: 0
+M: 50		G: 113
+Y: 0		B: 187
+K: 0		#0071bb
+
+Light Blue
+C: 100		R: 0
+M: 0		G: 173
+Y: 0		B: 238
+K: 0		#00adee
+```
