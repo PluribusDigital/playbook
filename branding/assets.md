@@ -39,8 +39,9 @@ Logos are available under [/playbook/branding/](/)
 
 | Logo Format | Color on White | Color on Black | Black on White | White on Black |
 | --- | --- | --- | --- | --- |
-| "P" Only, No text | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![1 color black-only P logo](pluribus-logo-notext-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-notext-white-on-black.svg) |
-| "Tall" (Text Below) | ![Color Pluribus Digital vertical logo, black text](pluribus-logo-tall-color-on-white.svg) | ![Color Pluribus Digital vertical logo, white text](pluribus-logo-tall-color-on-black.svg) | ![1 color black-only Pluribus Digital vertical logo with text](pluribus-logo-tall-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-tall-white-on-black.svg) |
+| **"P" (No Text)** | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![1 color black-only P logo](pluribus-logo-notext-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-notext-white-on-black.svg) |
+| **"Tall" (Text Below)** | ![Color Pluribus Digital vertical logo, black text](pluribus-logo-tall-color-on-white.svg) | ![Color Pluribus Digital vertical logo, white text](pluribus-logo-tall-color-on-black.svg) | ![1 color black-only Pluribus Digital vertical logo with text](pluribus-logo-tall-black-on-white.svg) | ![1 color white-only vertical logo with text](pluribus-logo-tall-white-on-black.svg) |
+| **"Wide" (Text to Right)** | ![Color Pluribus Digital wide logo, black text](pluribus-logo-wide-color-on-white.svg) | ![Color Pluribus Digital wide logo, white text](pluribus-logo-wide-color-on-black.svg) | ![1 color black-only Pluribus Digital wide logo with text](pluribus-logo-wide-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-wide-white-on-black.svg) |
 
 
 ## Logo/Brand Colors
