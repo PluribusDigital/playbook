@@ -35,25 +35,7 @@ GSA Schedule 70 Contract | GS‐35F‐404DA
 
 ## Logos
 
-### Color
 
-![STSI Color Logo](stsi_logo_200.png)
-
-[PDF Vector Logo](stsi_corner%20logo.pdf)
-
-[Large Color Logo PNG - 1356 x 438px](stsi_logo_large.png)
-
-[Small Color Logo PNG - 200 x 65px](stsi_logo_200.png)
-
-### White on Transparent
-
-![STSI White Logo](white-logo-preview.png)
-
-[Large Logo White-on-transparent 1865 x 603px](STSI_white_large.png) 
-
-[Medium Logo White-on-transparent 500 x 162px](STSI_white_500x162.png) 
-
-[Small Logo White-on-transparent 200 x 65px](STSI_white_200x65.png)
 
 ## Logo/Brand Colors
 
@@ -94,3 +76,10 @@ M: 0		G: 173
 Y: 0		B: 238
 K: 0		#00adee
 ```
+
+## Fonts
+
+**Logo Fonts:** Proxima Nova Bold, Proxima Nova Medium
+
+**Web Site Fonts:** Poppins (headers), Roboto (body)
+
