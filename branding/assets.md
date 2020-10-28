@@ -1,10 +1,10 @@
 # Brand Assets
 
-This page is intended to share the vital info that might be needed by STSI staff, partners, etc. when referencing the company. For example, a partner might want our logo for a proposal, or we might need to share similar information when sponsoring an event.
+This page is intended to share the vital info that might be needed by Pluribus Digital staff, partners, etc. when referencing the company. For example, a partner might want our logo for a proposal, or we might need to share similar information when sponsoring an event.
 
 ## Company Description
 
-Solution Technology Systems, Inc. (STSI) is a small, steadily growing digital services firm serving the federal government. Government services are becoming less about paper and manual processing and more about providing services as great digital products. STSI helps government organizations with this digital service transformation with hands-on services.
+Pluribus Digital is a small woman-owned digital services firm serving the federal government. Government services are becoming less about paper and manual processing and more about providing services as great digital products. Pluribus helps government organizations with this digital service transformation with hands-on services.
 
 * Development: We build cloud-based digital products and modernize legacy applications to support agility and mission effectiveness.
 * DevOps: We automate technical delivery to improve quality and efficiency, and move toward a culture of automation and continuous delivery.
@@ -12,11 +12,11 @@ Solution Technology Systems, Inc. (STSI) is a small, steadily growing digital se
 
 ... | Additional Details
 ------- | -----
-Full Company Name | Solution Technology Systems, Inc.
-URL | [https://stsiinc.com/](https://stsiinc.com/)
+Full Company Name | Solution Technology Systems, Inc. DBA: Pluribus Digital
+URL | [https://pluribusdigital.com/](https://pluribusdigital.com/)
 Address | 1600 Wilson Blvd, Suite 1300 <br /> Arlington, VA 22209
-Twitter | [@stsiinc](https://twitter.com/stsiinc)
-LinkedIn | [STSI](https://www.linkedin.com/company/stsi/)
+Twitter | [@pluribusd](https://twitter.com/pluribusd)
+LinkedIn | [PluribusDigital](https://www.linkedin.com/company/PluribusDigital/)
 DUNS | 92-775-5033
 CAGE Code | 1TAD9
 GSA Schedule 70 Contract | GS‐35F‐404DA
@@ -35,22 +35,58 @@ GSA Schedule 70 Contract | GS‐35F‐404DA
 
 ## Logos
 
-### Color
+Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file. 
 
-![STSI Color Logo](stsi_logo_200.png)
+| Logo Format | Color on White | Color on Black | Black on White | White on Black |
+| --- | --- | --- | --- | --- |
+| **"P" (No Text)** | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![1 color black-only P logo](pluribus-logo-notext-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-notext-white-on-black.svg) |
+| **"Tall" (Text Below)** | ![Color Pluribus Digital vertical logo, black text](pluribus-logo-tall-color-on-white.svg) | ![Color Pluribus Digital vertical logo, white text](pluribus-logo-tall-color-on-black.svg) | ![1 color black-only Pluribus Digital vertical logo with text](pluribus-logo-tall-black-on-white.svg) | ![1 color white-only vertical logo with text](pluribus-logo-tall-white-on-black.svg) |
+| **"Wide" (Text to Right)** | ![Color Pluribus Digital wide logo, black text](pluribus-logo-wide-color-on-white.svg) | ![Color Pluribus Digital wide logo, white text](pluribus-logo-wide-color-on-black.svg) | ![1 color black-only Pluribus Digital wide logo with text](pluribus-logo-wide-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-wide-white-on-black.svg) |
 
-[PDF Vector Logo](stsi_corner%20logo.pdf)
 
-[Large Color Logo PNG - 1356 x 438px](stsi_logo_large.png)
+## Logo/Brand Colors
 
-[Small Color Logo PNG - 200 x 65px](stsi_logo_200.png)
+```
+Dark Red
+C: 15		R: 190
+M: 100		G: 30
+Y: 90		B: 45
+K: 10		#be1e2d
 
-### White on Transparent
+Red
+C: 0		R: 238
+M: 90		G: 64
+Y: 85		B: 54
+K: 0		#ee4036
 
-![STSI White Logo](white-logo-preview.png)
+Orange
+C: 0		R: 250
+M: 35		G: 175
+Y: 85		B: 64
+K: 0		#faaf40
 
-[Large Logo White-on-transparent 1865 x 603px](STSI_white_large.png) 
+Turquoise
+C: 80		R: 0
+M: 0		G: 182
+Y: 20		B: 205
+K: 0		#00b6cd	
 
-[Medium Logo White-on-transparent 500 x 162px](STSI_white_500x162.png) 
+Dark Blue
+C: 100		R: 0
+M: 50		G: 113
+Y: 0		B: 187
+K: 0		#0071bb
 
-[Small Logo White-on-transparent 200 x 65px](STSI_white_200x65.png)
+Light Blue
+C: 100		R: 0
+M: 0		G: 173
+Y: 0		B: 238
+K: 0		#00adee
+```
+
+## Fonts
+
+**Logo Fonts:** Proxima Nova Bold, Proxima Nova Medium
+
+**Web Site Fonts:** Poppins (headers), Roboto (body)
+
