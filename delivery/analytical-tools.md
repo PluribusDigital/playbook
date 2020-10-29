@@ -3,7 +3,7 @@
 People talk about artificial intelligence (AI), machine learning (ML) or natural language processing (NLP),
 but what specifically can these tools be used for?
 
-This guide will clarify how we use those concepts at STSI by listing specific analytical tasks and how AI is used to accomplish it.
+This guide will clarify how we use those concepts at Pluribus by listing specific analytical tasks and how AI is used to accomplish it.
 
 ## Scrape text from the web
 
@@ -175,7 +175,7 @@ Some processes will go faster, or yield better results if they are fed prepared 
 ### Examples
 
 1. https://github.com/susanli2016/NLP-with-Python/blob/master/Cleaning%20Text.ipynb
-1. https://github.com/STSILABS/uscis-bdso-demo/blob/issue-3/jupyter/src/toolkit/to_sentences.py
+1. https://github.com/PluribusDigital/uscis-bdso-demo/blob/issue-3/jupyter/src/toolkit/to_sentences.py
 1. https://github.com/JeffreyMFarley/hew/blob/master/hew/normalizer.py
 
 ---
@@ -300,7 +300,7 @@ Similar to the "cleaning" process above, finding the "canonical form" will impro
 
 1. [An article by SeatGeek explaining how it works](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)
 1. [Trying to match hotel room descriptions](https://github.com/susanli2016/NLP-with-Python/blob/master/Fuzzy%20String%20Matching.ipynb)
-1. [My attempt to have a REST API for canonicalization](https://github.com/STSILABS/canyonero)
+1. [My attempt to have a REST API for canonicalization](https://github.com/PluribusDigital/canyonero)
 1. [An explanation of string distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
 
 ---

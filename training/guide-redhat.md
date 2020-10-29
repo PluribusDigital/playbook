@@ -1,15 +1,15 @@
 # Red Hat Partner Training
 
-STSI has partnered with Redhat! We receive access to free training, licenses, and other perks as part of our partnership.
+Pluribus Digital has partnered with Redhat! We receive access to free training, licenses, and other perks as part of our partnership.
 
 See instruction below to gain access.
 
 ## How to create account-
-Send an email to HelpDesk@stsiinc.com requesting an STSI Redhat account. Once created you will receive an email with instructions to login and set a password. It's really simple. 
+Send an email to HelpDesk@pluribusdigital.com requesting an Pluribus Digital Redhat account. Once created you will receive an email with instructions to login and set a password. It's really simple. 
 
-Once you receive your email invite you will be asked to go here: https://partnercenter.redhat.com/ and enter your STSI email. You will then be prompted to create a password and viola, you are in!
+Once you receive your email invite you will be asked to go here: https://partnercenter.redhat.com/ and enter your Pluribus Digital email. You will then be prompted to create a password and viola, you are in!
 
-Now that you are in the STSI Redhat partner website you can explore training by following the Training step below or create lab environmets by folowing the Labs link below.
+Now that you are in the Pluribus Digital Redhat partner website you can explore training by following the Training step below or create lab environmets by folowing the Labs link below.
 
 Welcome and have fun!
 
@@ -25,4 +25,4 @@ Scroll through the offerings for something you would like to pursue. Consider Cl
 ## Setup lab environments - 
 Go here https://connect.redhat.com/auth-home and explore one or all of the items.
 
-If you need any assistance or have any questions at all do not hesitate to ask at HelpDesk@stsiinc.com 
+If you need any assistance or have any questions at all do not hesitate to ask at HelpDesk@pluribusdigital.com 

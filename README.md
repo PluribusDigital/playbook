@@ -1,4 +1,4 @@
-# STSI Playbooks
+# Pluribus Digital Playbooks
 
 Documentation on how we do things - the "source code" for our organization. The publicly-accessible playbook includes topics that are not sensitive and are potentially useful to outside collaborators, potential employees, or others.
 
