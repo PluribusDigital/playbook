@@ -16,3 +16,4 @@ The following guides outline how we operate.
   * [Terms](growth/terms.md) - the nomanclature, verbiage and acronyms associated with procurement
 * __Branding__
   * [Assets](branding/assets.md) - logos, company description blurbs, etc.
+  * [Brand Guide & Voice](branding/guide.md) - how we use the name, how we write, etc.
