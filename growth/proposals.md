@@ -1,6 +1,6 @@
 # Proposal Guide
 
-This guide allows STSI staff and teaming partners to be synced on what to expect when creating a proposal together.
+This guide allows Pluribus staff and teaming partners to be synced on what to expect when creating a proposal together.
 
 ## Writing Style
 
@@ -28,8 +28,8 @@ This guide allows STSI staff and teaming partners to be synced on what to expect
 
 | Rule | Bad Example(s) | Good Example(s) |
 | --- | --- | --- |
-| Direct phrasing | STSI will work to... <br> STSI intends to... <br>We understand that some PMM type deliverables are more applicable... | STSI will... <br> Some PMM deliverables are more applicable... |
-| Present tense | The PM will then update the plan...<br>STSI will deliver per agile methodology... | The PM updates the plan...<br>STSI delivers per agile methodology... |
+| Direct phrasing | Pluribus will work to... <br> Pluribus intends to... <br>We understand that some PMM type deliverables are more applicable... | Pluribus will... <br> Some PMM deliverables are more applicable... |
+| Present tense | The PM will then update the plan...<br>Pluribus will deliver per agile methodology... | The PM updates the plan...<br>Pluribus delivers per agile methodology... |
 | Active voice | Artifacts are created... | Analysts create artifacts |
 | Plain language | With a high multitude of documents and artifacts available... | With many artifacts available... [see also](https://xkcd.com/1133/) |
 
@@ -67,7 +67,7 @@ We use MS Word to author proposals. Some rules on formatting options and gotcha'
 
 ### "Color Team" Reviews
 
-STSI is less formal than most. We typically perform only Red and Gold reviews. 
+Pluribus is less formal than most. We typically perform only Red and Gold reviews. 
 
 #### Pink Team (Storyboard)
 
@@ -149,7 +149,7 @@ Proposals/
     15_Shared_Team_Library/    #=> (SHARE) General docs to be shared across all team members
     [Specific Procurement]/    #=> example names: "RFP_2015_10_15", "RFI_2015_05_05"
       20_From_Government/      #=> (SHARE) procurement docs issued by government
-      30_Question_to_Gov       #=> draft and submitted STSI questions regarding RFP
+      30_Question_to_Gov       #=> draft and submitted Pluribus questions regarding RFP
       50_Pricing/              #=> pricing source files
         Team_Input/
           SubA/                #=> can be shared w/ subs individually for input, data calls, collaboration

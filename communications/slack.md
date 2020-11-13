@@ -12,7 +12,7 @@ We use Slack for internal communication. This guide helps you get the most out o
 
 ### Setting up Slack 
 
-STSI’s slack url is https://stsiinc.slack.com  
+The Pluribus slack url is https://stsiinc.slack.com  
 
 There are a few ways to access slack. Find the combination that works for you, but it is recommended to make sure all 3 are available to you. 
 
@@ -22,7 +22,7 @@ Recommendation: use this as primary access to slack.
 
 * Install the desktop application (see slack.com for specific instructions). 
 
-* Add the STSI team ( https://stsiinc.slack.com ) on your desktop slack app. (Note: you can have multiple slack teams in the one client) 
+* Add the team ( https://stsiinc.slack.com ) on your desktop slack app. (Note: you can have multiple slack teams in the one client) 
 
 * Follow any instructions for logging in, etc. 
 
@@ -84,7 +84,7 @@ Channels are visible to a group – either the entire organization or a controll
 
 * General Channel: this is very public. Think of it as the “lobby” area. Any employee and/or guest user can see what goes on here. It is intended for broad announcements or chatter with no expectation of privacy. An example might be announcing: “working from home for morning due to appointment”. 
 
-* Other Public Channels: These are similarly public and potentially accessible by just about anyone who is part of the STSI slack. This is great for public conversations around some topic. 
+* Other Public Channels: These are similarly public and potentially accessible by just about anyone who is part of the Pluribus slack. This is great for public conversations around some topic. 
 
 * Private Channels: Private channels (with a padlock icon ) are only visible to invited members. This is good for controlling access to a specific topical channel, e.g. a proposal. 
 
@@ -114,12 +114,12 @@ It’s also OK to have limited notifications, where it might take you a bit to r
 
 Only certain users can invite people. In general, it should be the IT manager (Tom H).
 
-#### STSI Employees 
+#### Pluribus Digital Employees 
 
-Any STSI employees can be added to Slack via self-signup (using a company email address). Channel owners can decide who should be in private channels. 
+Any Pluribus Digital employee can be added to Slack via self-signup (using a company email address). Channel owners can decide who should be in private channels. 
 
 #### Non-Employees 
 
 We can (and have) invite outside guests. For example, a proposal team might benefit from a slack channel. Please do so with appropriate care in terms of the privileges of the user, and be sure to remove them when the need is complete. 
 
-Contact the helpdesk (helpdesk@stsiinc.com) to initiate inviting non-employees.
+Contact the helpdesk (helpdesk@pluribusdigital.com) to initiate inviting non-employees.

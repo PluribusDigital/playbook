@@ -4,7 +4,7 @@ audience: HQ staff who support the business development process
 
 # Opportunity Tracking
 
-This guide documents STSI's process and principles for tracking and pursing business opportunities.
+This guide documents the Pluribus Digital process and principles for tracking and pursing business opportunities.
 
 ## Opportunity Funnel
 
@@ -74,7 +74,7 @@ We research opportunities and validate them against set criteria in order to aid
 
 ### Validation Criteria Checklist
 
-* __STSI FIT__ - We are only so big, and can only track a targeted portion of the market. Does the client, mission, and scope of work fit our own mission and service areas? Is this work we will be proud to share?
+* __FIT__ - We are only so big, and can only track a targeted portion of the market. Does the client, mission, and scope of work fit our own mission and service areas? Is this work we will be proud to share?
   - [ ] Mission alignment
   - [ ] Target client
   - [ ] Focus service area / technology

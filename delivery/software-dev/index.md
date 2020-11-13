@@ -1,8 +1,8 @@
 # Software Development Guide
 
-This guide allows STSI staff and teaming partners to be synced on what to expect when building web applications together. It is also a useful resource for tech resources in getting up to speed. This guide serves two types of readers:
+This guide allows Pluribus staff and teaming partners to be synced on what to expect when building web applications together. It is also a useful resource for tech resources in getting up to speed. This guide serves two types of readers:
 
-1. **Expert Developers**: This guide serves as a reference of STSI norms of preferences in order to be consistent with other team members.
+1. **Expert Developers**: This guide serves as a reference of Pluribus norms of preferences in order to be consistent with other team members.
 
 2. **Still-learning Developers**: You need an introduction to concepts, then a path to gain proficiency. Some concepts you might understand, while others are new. This guide points you in the direction of how to learn the concepts and related practices.
 
@@ -41,7 +41,7 @@ Look for these files in any new project to get an idea of how to get started.
 
 `INSTALL.md` - Some projects will have a separate file for installation instuctions.  The separate file will usually indicate a more involved build process or signal that the project has many more users than authors. 
 
-### The STSI Way
+### The Pluribus Way
 
 * Work Tracking: Any method works, so long as it is equally accessible to all team members (if any team member is remote, do it electronically).
 * Standups: Find a time and cadence that fits the team's work pattern, with <= 15 minutes in the morning as the norm.
@@ -80,11 +80,11 @@ When you want to make a set of changes, you create a branch. We follow the [gitf
 
 "Secrets" refers to things that the running application needs to know, but are generally sensitive (things like database URLs, credentials, API keys, ...) so we don't want to share secrets widely because that would create a security risk that could lead to data breaches and cost for services that a nefarious hacker could use with the secrets. For example, sharing AWS credentials on a public repo could [allow a bitcoin miners to hijack your account](https://readwrite.com/2014/04/15/amazon-web-services-hack-bitcoin-miners-github/). This is not good. Instead, we inject such secrets as environment variables (a.k.a. ENV).
 
-### The STSI Way
+### The Pluribus Way
 
  * **Git**: We use Git whenever possible. It is by far the dominant industry standard.
  * **Git Flow**: We use the [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow approach to branching/merging/pull requests whenever possible.
- * **GitHub**: We use [GitHub](https://github.com/STSILABS/) by default for any repos owned by STSI, but often work with client-provided repositories.
+ * **GitHub**: We use [GitHub](https://github.com/PluribusDigital/) by default for any repos owned by Pluribus, but often work with client-provided repositories.
  * **DotEnv**: By default, we use a "dotenv" approach. The libraries differ by language, but all use a local file (e.g. `/.env`) that is also in the `.gitignore`. A `/.env.example` file shows developers what values need to be filled in. In development envirionments, the contents of the file are loaded as environment variables. In production, the same environment variables are set via other means.
  
 ### Learning Checklist/Resources
@@ -104,7 +104,7 @@ To work with your code you need several tools on your workstation (unless you ar
 
 **Terminal:** You need to be able to run commands to build or run the app locally. This is done from the command line. Most operating systems have built-in terminals, but you can also install others ([iTerm2](https://www.iterm2.com/) for Mac, [Git bash](https://gitforwindows.org/) for Windows, etc.).
 
-### The STSI Way
+### The Pluribus Way
 
 Local developer tools are generally a matter of preference. There is no standard.
 
@@ -122,7 +122,7 @@ We never start from scratch there are so many libraries we can leverage and buil
 * __Dependency Resolution__: Package managers also resolve dependencies, because your dependencies have dependencies, and those might conflict. 
 * __Updates__: Packages are a great accelerator at providing lots of features and funcitonality. You packages need to be maintained and reviewed for security issues or [vulnerabilities](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) so they can quickly be updated with security updates and releases.  Also there is a need to update packages for non-security related issues otherwise it will be harder to update when there is an issue in the future.
 
-### The STSI Way
+### The Pluribus Way
 
 * Only introduce dependencies via a manifest and package manager, unless there is no other way
 * Perform due dilligence to investigate a new package, including update frequency, github stars/forks, code investigation, etc.
@@ -138,7 +138,7 @@ We write code to test our code these are referred to as automated tests, this ma
 * _Testing provides early warnings:_  Sometimes changes in one part of the application will accidently break other parts.  With tests, these side effects are surfaced immediately and can be addressed in the same pull request.  Without tests, the bugs are passed along and will be found at a much later time which can be costly and time consuming.
 * _Testing improves Maintainability:_ Write tests not so much for yourself, but for the dozens of other developers that will read and maintain your code over many years.  Oftentimes, a test acts as a secondary means of communicating the purpose of a block of code.  If the maintainer cannot understand the original code, the tests exercising it may provide additional insight.
 
-### The STSI Way
+### The Pluribus Way
 * _Coverage:_ We believe that your code should have tests that cover at least 80% of your code base, with special attention given to key functions or modules.
 * _Passing Tests:_ We believe that code is not ready for review until all the tests are passing
 * _Testing as a start:_ A great way to familiarize yourself with an existing project is to run the tests and add missing coverage.  This will give you experience building, running and understanding the code while contributing to the overall health of the project.
@@ -156,7 +156,7 @@ There's app code, then there's code that helps us write the code. Some languages
  * _Tree shaking:_ You may load lots of libraries, but only use small bits of each. Tree shaking is a process to prune the codebase to only what you are using so that less is sent to the browser, and less has to be dealt with by the machine running it. 
 
 
-### The STSI Way
+### The Pluribus Way
 
  * __Convention__: Unless there is a great reason otherwise, stick to the dominant convention of the framework you use. For example, React.js apps tend to use webpack and babel. Better yet, use react-scripts/create-react-app in that case.
  
@@ -173,9 +173,9 @@ A Continuous Integration (CI) process looks for changes in the code (i.e. new co
 * _Capture Metrics:_ If the test suite ran successfully, the CI server can use other tools to measure code coverage, code complexity, compliance with style and a host of other metrics that can be tracked to show how the code has changed, and hopefully, improved over time.
 * _Validate pull requests:_ A CI server can be used as the first step in a PR review process.  Before other developers get a chance to review the code, it can be automatically built, tested and measured.  This frees up the development team to perform high-quality review tasks only after the low-level checks have succeeded.
 
-### The STSI Way
-* _Use a CI server:_ There are several free CI servers available.  We use [Travis](https://travis-ci.org/STSILABS) or [CircleCI](https://circleci.com/gh/STSILABS) for open source projects, and those or others for customer work.  These should be configured to build and test every pull request.
-* _Metrics:_ Depending on the application, it may be important to use analyzers to check code quality.  In the past we have used [Code Climate](https://codeclimate.com/) to perform static analysis and [Coveralls](https://coveralls.io/github/STSILABS) to track code coverage.  Both of these tools should be integrated with the CI server during PR builds.
+### The Pluribus Way
+* _Use a CI server:_ There are several free CI servers available.  We use [Travis](https://travis-ci.org/PluribusDigital) or [CircleCI](https://circleci.com/gh/PluribusDigital) for open source projects, and those or others for customer work.  These should be configured to build and test every pull request.
+* _Metrics:_ Depending on the application, it may be important to use analyzers to check code quality.  In the past we have used [Code Climate](https://codeclimate.com/) to perform static analysis and [Coveralls](https://coveralls.io/github/PluribusDigital) to track code coverage.  Both of these tools should be integrated with the CI server during PR builds.
 * _Perform security scans_: Static code analysis products like the above code quality tools, or standalone security scan solutions, should be used to find potentially unsecure code (i.e. of the code that we write).
 * _Enforce security audits_: Dependency audit results of high severity should "break the build", and not allow the app to progress to deployment. This is generally a quick fix (updating the library to the latest patch version), but could occasionally result in replacing a library that is not well maintained enough to issue fixes.
 
@@ -193,6 +193,6 @@ The app has to run somewhere, generally some virtual server on the cloud.
   * (Ad Hoc): Modern cloud platforms allow us to spin up new environments (app server, database, etc.) that might be useful to demo a specific feature, test a configuration, etc.
 * _Deployment Scripts_: Apps typically require various tasks to be run on deployment. For example, it may have to kick off a background worker, run [database migrations](db-change-management.md), etc.
 
-### The STSI Way
+### The Pluribus Way
 
 * _Automate_ deployment as part of CI. For example, a change to the master branch could trigger a deployment to the production environment. This is why a good CI process that you can trust with your life is important. 

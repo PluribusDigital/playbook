@@ -1,4 +1,4 @@
-# STSI Playbooks
+# Pluribus Digital Playbooks
 
 Documentation on how we do things - the "source code" for our organization. The publicly-accessible playbook includes topics that are not sensitive and are potentially useful to outside collaborators, potential employees, or others.
 
@@ -16,3 +16,4 @@ The following guides outline how we operate.
   * [Terms](growth/terms.md) - the nomanclature, verbiage and acronyms associated with procurement
 * __Branding__
   * [Assets](branding/assets.md) - logos, company description blurbs, etc.
+  * [Brand Guide & Voice](branding/guide.md) - how we use the name, how we write, etc.
