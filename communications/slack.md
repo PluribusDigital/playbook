@@ -12,7 +12,7 @@ We use Slack for internal communication. This guide helps you get the most out o
 
 ### Setting up Slack 
 
-The Pluribus slack url is https://stsiinc.slack.com  
+The Pluribus slack url is https://pluribusdigital.slack.com  
 
 There are a few ways to access slack. Find the combination that works for you, but it is recommended to make sure all 3 are available to you. 
 
@@ -22,7 +22,7 @@ Recommendation: use this as primary access to slack.
 
 * Install the desktop application (see slack.com for specific instructions). 
 
-* Add the team ( https://stsiinc.slack.com ) on your desktop slack app. (Note: you can have multiple slack teams in the one client) 
+* Add the team ( https://pluribusdigital.slack.com ) on your desktop slack app. (Note: you can have multiple slack teams in the one client) 
 
 * Follow any instructions for logging in, etc. 
 
@@ -42,7 +42,7 @@ Recommendation: Install on your phone, and tune app notification settings to pre
 
 * Recommendation: Only use this as a backup (e.g. when you are using a secondary computer) 
 
-* You can access slack within a web browser by going to https://stsiinc.slack.com. This works OK, and is great for a guest computer or less frequently used computer. 
+* You can access slack within a web browser by going to https://pluribusdigital.slack.com. This works OK, and is great for a guest computer or less frequently used computer. 
 
 ### What Should be in Slack? 
 
