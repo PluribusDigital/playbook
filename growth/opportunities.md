@@ -32,7 +32,7 @@ The below diagram outlines how we track opportunities. This is broken down into 
 
 * __Bid:__ When an opportunity has an active RFP (or perhaps draft RFP with a high-confidence schedule), it goes into an active state of preparing the proposal.
 
-  * Carry out the [proposal development process](/topics/proposal.html).
+  * Carry out the [proposal development process](proposals.md).
 
 ## Identification
 

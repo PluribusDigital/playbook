@@ -2,6 +2,8 @@
 
 This page is intended to share the vital info that might be needed by Pluribus Digital staff, partners, etc. when referencing the company. For example, a partner might want our logo for a proposal, or we might need to share similar information when sponsoring an event.
 
+See also:[Brand Guide & Voice](guide.md)
+
 ## Company Description
 
 Pluribus Digital is a small woman-owned digital services firm serving the federal government. Government services are becoming less about paper and manual processing and more about providing services as great digital products. Pluribus helps government organizations with this digital service transformation with hands-on services.
@@ -12,7 +14,7 @@ Pluribus Digital is a small woman-owned digital services firm serving the federa
 
 ... | Additional Details
 ------- | -----
-Full Company Name | Solution Technology Systems, Inc. DBA: Pluribus Digital
+Full Company Name | Solution Technology Systems, Inc. d/b/a Pluribus Digital
 URL | [https://pluribusdigital.com/](https://pluribusdigital.com/)
 Address | 1600 Wilson Blvd, Suite 1300 <br /> Arlington, VA 22209
 Twitter | [@pluribusd](https://twitter.com/pluribusd)
@@ -35,7 +37,17 @@ GSA Schedule 70 Contract | GS‐35F‐404DA
 
 ## Logos
 
-Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file. 
+### Logo Usage Guidelines
+
+* _Do not change the logo._ Do not edit, re-arrange, re-color, change part of the text portion, etc. Do not change the aspect ratio (width as compared to height).
+
+* _Use an appropriate file type for the medium._  Use vector formats (SVG) when possible. Use an appropriate resolution raster format (PNG) otherwise. Avoid pixelation or blurring by not using a too-small file.
+
+* _Use an appropriate background color._ The color logo is meant to be set on very light (white or close) or very dark (black or close) backgrounds. The single-color versions can be used in a wider variety of backgrounds.
+
+### Logo Variations
+
+Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file or view the [parent directory](https://github.com/PluribusDigital/playbook/tree/main/branding). 
 
 | Logo Format | Color on White | Color on Black | Black on White | White on Black |
 | --- | --- | --- | --- | --- |
