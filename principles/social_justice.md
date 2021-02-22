@@ -3,11 +3,11 @@ The United Nations declared February 20 as the [World Day of Social Justice](htt
 
 Our society has always strived to offer liberty and justice for all but has struggled to deliver on that promise. In particular, “for all” has often left out women, people of color, LGBTQ, many immigrant communities, and other marginalized groups. Pluribus Digital can play an active role in making progress toward social justice. 
 
-Pluribus Digital can help in many ways but have some work to do. We offer the following roadmap for where we are headed, holding ourselves accountable with the levers at our disposal. We have a moral obligation to do what we can to help address issues of systemic racism, sexism, or other similar issues. Beyond this moral imperative, there are benefits to the company to take action. The better we align our resources toward impactful actions, the greater impact we have. 
+We offer the following roadmap for where we are headed, holding ourselves accountable with the levers at our disposal. We have a moral obligation to do what we can to help address issues of systemic racism, sexism, or other similar issues. Beyond this moral imperative, there are benefits to the company to take action. The better we align our resources toward impactful actions, the greater impact we have. 
 
 We are in the services business. Our ability to deliver depends on recruiting and retaining talented people. A diverse culture attracts talented people of all backgrounds. The market for tech talent is competitive. By increasing our reach to a diverse set of people and foster an inclusive culture that allows all people to contribute fully, we win as a company. 
 
-Furthermore, we believe our employees, our customers, and our community benefit when we take meaningful action toward diversity and inclusion. Lastly, we encourage our employees to share their thoughts and ideas on where we can take meaningful action toward diversity and inclusion at Pluribus Digital.
+Furthermore, we believe our employees, our customers, and our community benefit when we take meaningful action toward diversity and inclusion. 
 
 ## Specific Actions for Our Company
 _Hiring, pay, and growth:_ We control who we hire, what we pay them, and how we invest in their growth. 
