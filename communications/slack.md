@@ -104,11 +104,17 @@ You can get push notifications on your phone or computer. This is great, but bec
 
 Find what works for you. 
 
-### Expectations for being online 
+### Expectations 
+
+####**Being Online**
 
 You should generally be available on slack when you are available on email. It is OK to have times of the day where you don’t respond instantly. You should turn off phone notifications when on vacation. It’s good to have boundaries. 
 
 It’s also OK to have limited notifications, where it might take you a bit to respond to a DM. Obviously, it depends what’s going on. If it is an emergency, people can always follow up with phone/text/etc. 
+
+####**Professionalism**
+
+All interactions on Slack should remain professional in tone and language and conducive to the work environment.  
 
 ### Inviting People 
 
@@ -123,3 +129,5 @@ Any Pluribus Digital employee can be added to Slack via self-signup (using a com
 We can (and have) invite outside guests. For example, a proposal team might benefit from a slack channel. Please do so with appropriate care in terms of the privileges of the user, and be sure to remove them when the need is complete. 
 
 Contact the helpdesk (helpdesk@pluribusdigital.com) to initiate inviting non-employees.
+
+
