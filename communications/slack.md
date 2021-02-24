@@ -106,13 +106,13 @@ Find what works for you.
 
 ### Expectations 
 
-####**Being Online**
+#### Being Online
 
 You should generally be available on slack when you are available on email. It is OK to have times of the day where you don’t respond instantly. You should turn off phone notifications when on vacation. It’s good to have boundaries. 
 
 It’s also OK to have limited notifications, where it might take you a bit to respond to a DM. Obviously, it depends what’s going on. If it is an emergency, people can always follow up with phone/text/etc. 
 
-####**Professionalism**
+#### Professionalism
 
 All interactions on Slack should remain professional in tone and language and conducive to the work environment.  
 
