@@ -141,12 +141,12 @@ Proposal folders are organized as follows ("#=>" is a comment):
 
 ```bash
 Proposals/
-  [Opportunity Name]/          #=> (see note below)
-    00_Background/             #=> (SHARE) assorted research documents
+  [Opportunity Name + YYYY_MM]/  #=> (see note below, include the year-month at end of name)
+    00_Background/               #=> (SHARE) assorted research documents
     10_Teaming/
       NDAs/
       TAs/
-    15_Shared_Team_Library/    #=> (SHARE) General docs to be shared across all team members
+    [Opportunity Name]_Team_Share /    #=> (SHARE) General docs to be shared across all team members
     [Specific Procurement]/    #=> example names: "RFP_2015_10_15", "RFI_2015_05_05"
       20_From_Government/      #=> (SHARE) procurement docs issued by government
       30_Question_to_Gov       #=> draft and submitted Pluribus questions regarding RFP
@@ -176,4 +176,4 @@ Notes:
   * [DATE] is in YYYY_MM_DD format (e.g. "2013_12_25")
   * Organization under Proposals/[Opportunity Name] can be multiple levels. Target customers would have a dedicated folder, and probably subfolders for major initiatives (FDIC/ITAS-II, FDIC/Outsourcing). Others would be simply by agency or agency group (Defense).
   * The `9*_[Followup Submission Name]_[Date]/` folders are for things like BAFO, questions from government, etc. (e.g. "91_Questions_from_Agency_2015_10_21" or "92_BAFO_2015_10_30")
-  * (SHARE) means that this would be shared with the broader proposal team (i.e. subcontractors)
+  * (SHARE) means that this would be shared with the broader proposal team (i.e. subcontractors), and potentially organized under the team share folder
