@@ -1,3 +1,7 @@
+___
+Notice: Due to the sensitivity of the details of Opportunities process, future updates are developed within Trello on the BD Pipeline Board. See the How To column for the most recent version.
+
+The page below will remain open for a transition period. Please update any links or directions to this page.
 ---
 audience: HQ staff who support the business development process
 ---
