@@ -70,20 +70,20 @@ Note: This technique will not work if the PDF is based on scanned images.  Extra
 
 ### Tools
 
-1. [PyPDF2](https://github.com/mstamy2/PyPDF2) - A python package for navigating PDF documents
+1. [pdfplumer](https://github.com/jsvine/pdfplumber) - A python package for navigating PDF documents
+
 
 ### Examples
 
 ```python
-import PyPDF2
+import pdfplumber
  
 pdfName = 'path/to/some.pdf'
-read_pdf = PyPDF2.PdfFileReader(pdfName)
- 
-for i in range(read_pdf.getNumPages()):
-    page = read_pdf.getPage(i)
-    content = page.extractText()
-    print(i, content)
+
+with pdfplumber.open(options.infile) as pdf:
+    for i, page in enumerate(pdf.pages):
+        content = page.extract_text()
+        print(i, content)
 ```
 
 ---
