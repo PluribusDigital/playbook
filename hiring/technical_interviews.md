@@ -12,15 +12,15 @@ Hiring people who are a great culture add and technical skill fit is hard. No in
 Our current model is as follows, and always subject to modification if we can improve it.
 
 1. Recruiter Screen
-2. Fit Discussion
+2. EQ/Fit Discussion
 3. Technical Evaluation
-4. Interview
+4. Skills Deep Dive 
 
 ### Recruiter Screen
 
 In a combination of phone call or email, the recruiter confirms basic availability fit. Does the candidate's job seeking timeline line up with our needs? Do they meet basic requirements such as work location, eligibility for clearances, experience guidelines, etc?
 
-### Fit Discussion
+### EQ/Fit Discussion
 
 In a phone/video call, a hiring manager talks or similar discusses the position with the candidate for a 2-way fit. We provide background on the company and position so they can understand fit from their perspective.  What are the candidate's general claimed abilities and career goals - and does that fit the need? Are there strong indicators that the candidate understands modern development practices and team collaboration?
 
@@ -28,7 +28,7 @@ In a phone/video call, a hiring manager talks or similar discusses the position 
 
 At a time and place convenient to them, the candidate takes a short (< 90 min) technical test. The test is _not_ a filter and all candidates that make this stage also go on to the following interview. The test is the starting point for the deeper dive interview discussion where candidates can explain thought processes and misunderstandings. (See additional notes below.)
 
-### Interview
+### Skills Deep Dive
 
 In an in-person discussion or video call, the candidate speaks with one or more interviewers for a holistic deep dive. This will combine discussion on technical evaluation, team dynamics, growth desires, etc. An interview may be broken into multiple sessions / multiple appointments based on the role. For example, a technical deep dive may be a separate discussion from meeting the team to learn more about specific project skill fit.
 
