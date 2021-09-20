@@ -126,7 +126,10 @@ Any Pluribus Digital employee can be added to Slack via self-signup (using a com
 
 #### Non-Employees 
 
-We can (and have) invite outside guests. For example, a proposal team might benefit from a slack channel. Please do so with appropriate care in terms of the privileges of the user, and be sure to remove them when the need is complete. 
+We can (and have) invite outside guests. For example, a proposal team might benefit from a slack channel. Please do so with appropriate care in terms of the privileges of the user, and be sure to remove them when the need is complete. Non-employees can be added in one of two ways:
+
+1. *Slack Connect* - If the person's company uses Slack, we can use the 'connect' feature to invite them to one or more channels. They are logged in through their normal company slack account and don't need to join a separate workspace. We generally have kept this to private channels.
+2. *Guest User* - A guest user is a direct user of the Pluribus slack space, and need not have any previous/other slack account. 
 
 Contact the helpdesk (helpdesk@pluribusdigital.com) to initiate inviting non-employees.
 
