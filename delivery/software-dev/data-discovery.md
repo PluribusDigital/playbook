@@ -2,9 +2,6 @@
 
 Early in a product or feature, we often know we'll need to acquire data from some existing source. We need to know what data exists, where, and how to get to it.
 
-## Questions
-
-
 ## Artifacts
 
 See [artifact examples](data-discovery-artifact-example.md) for how you might capture this information in a markdown file.
