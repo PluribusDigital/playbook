@@ -7,6 +7,8 @@ Early in a product or feature, we often know we'll need to acquire data from som
 
 ## Artifacts
 
+See [artifact examples](data-discovery-artifact-example.md) for how you might capture this information in a markdown file.
+
 ### Data Flows (optional)
 
 Depending on the complexity of the system and number of sources, this can be a visual diagram, or simply a few text bullets. For few sources, skipping data flows is a valid option.
