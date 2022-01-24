@@ -2,7 +2,9 @@
 
 This page is intended to share the vital info that might be needed by Pluribus Digital staff, partners, etc. when referencing the company. For example, a partner might want our logo for a proposal, or we might need to share similar information when sponsoring an event.
 
-See also:[Brand Guide & Voice](guide.md)
+See also: [Brand Guide & Voice](guide.md)
+
+Contents: [Company Description](#company-description) | [Logos](#logos) | [Colors](#logobrand-colors) | [Fonts](#fonts)
 
 ## Company Description
 
