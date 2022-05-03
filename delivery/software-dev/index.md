@@ -68,7 +68,7 @@ Source control allows us to work together on writing a shared codebase (really j
 
 #### Branching
 
-When you want to make a set of changes, you create a branch. We follow the [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow to apply a consistent approach to branching (and later merging). You checkout a "feature branch" in order to make a set of changes - kind of like saving off your version of the code. By branching, you won't create conflicts in the codebase while you and others are all working on changes concurrently. 
+When you want to make a set of changes, you create a branch. We often follow the [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) or [GitHub Flow](https://githubflow.github.io/) workflow to apply a consistent approach to branching (and later merging). The strategy to choose depends on the nature of the release cycle. In either, you checkout a "feature branch" in order to make a set of changes - kind of like saving off your version of the code. By branching, you won't create conflicts in the codebase while you and others are all working on changes concurrently. 
 
 #### When & How to Commit, Push
 
