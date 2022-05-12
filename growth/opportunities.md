@@ -12,7 +12,7 @@ The below diagram outlines how we track opportunities. This is broken down into 
 
 ![process overview of opportunity funnel](/images/opp-funnel.png)
 
-* __Identify:__ A new opportunity comes to our attention and begins to be tracked at a high-level.
+* __Identify:__ A new opportunity comes to our attention and begins to be tracked at a high-level. An opportunity may come to our attention as a result of a published [RFI](RFIs.md).
 
   * _Validate_ identified opportunities to determine if they are worth pursuing.
   
