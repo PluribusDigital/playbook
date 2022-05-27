@@ -23,6 +23,7 @@ Address | 2400 Wilson Blvd, Suite 700 <br /> Arlington, VA 22201
 Twitter | [@pluribusd](https://twitter.com/pluribusd)
 LinkedIn | [PluribusDigital](https://www.linkedin.com/company/PluribusDigital/)
 DUNS | 92-775-5033
+UEI | EBC8TT6W1LR7
 CAGE Code | 1TAD9
 GSA Schedule 70 Contract | GS‐35F‐404DA
 
