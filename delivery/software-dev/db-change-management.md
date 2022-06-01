@@ -22,7 +22,7 @@ By automating this process, we gain some nice features:
 
 ### How the Automation Works
 
-See [Flyway documentation](https://flywaydb.org/getstarted/how) for a more robust explanation of how it works. (Other tools are similar.)
+See [Flyway documentation](https://flywaydb.org/documentation/getstarted/) for a more robust explanation of how it works. (Other tools are similar.)
 
 * Developer writes migration scripts for each change (new table, new column, rename, etc.)
 * Developer runs a command to apply migrations
