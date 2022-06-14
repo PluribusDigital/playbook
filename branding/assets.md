@@ -8,9 +8,9 @@ See also: [Brand Guide & Voice](guide.md)
 
 ## Company Description
 
-Pluribus Digital is a small woman-owned digital services firm serving the federal government. Government services are becoming less about paper and manual processing and more about providing services as great digital products. Pluribus helps government organizations with this digital service transformation with hands-on services.
+Pluribus Digital is a small woman-owned digital services firm supporting public service missions, primarily the federal government. Government services are becoming less about paper and manual processing and more about providing services as great digital products. Pluribus helps government organizations with this digital service transformation with hands-on services.
 
-* Design: Create best in class user experiences using approaches like human centered design, design thinking and service design.
+* Design: Drive great user experiences using approaches like human centered design, design thinking and service design.
 * Development: Build and support software using modern development practices like agile and open source software.
 * DevOps: Collaborate across silos to automate compliance and deliver frequently.
 * Data: Manage data as a first-class asset to support analytics and open data sharing.
