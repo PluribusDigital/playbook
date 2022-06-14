@@ -25,7 +25,8 @@ LinkedIn | [PluribusDigital](https://www.linkedin.com/company/PluribusDigital/)
 DUNS | 92-775-5033
 UEI | EBC8TT6W1LR7
 CAGE Code | 1TAD9
-GSA Schedule 70 Contract | GS‐35F‐404DA
+GSA Schedule 70 Contract | [GS‐35F‐404DA](https://pluribusdigital.com/content/work/contract_vehicles/gsa_70)
+CIO-SP3 SB Contract | [75N98120D00076](https://pluribusdigital.com/content/work/contract_vehicles/cio_sp3)
 
 ### NAICS Codes
 
