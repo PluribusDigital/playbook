@@ -77,6 +77,6 @@ For example, updating a column and changing the datatype may require analysis of
 
 A non-exhaustive list of some tools includes:
 
-* [Flyway](https://flywaydb.org/) for the Java ecosystem
-* [Sequelize](https://sequelize.org/v5/manual/migrations.html) for the JavaScript ecosystem
+* [Flyway](https://flywaydb.org/) or [Liquibase](https://www.liquibase.org/) for the Java ecosystem
+* [Sequelize](https://sequelize.org/) for the JavaScript ecosystem
 * [ActiveRecord](https://guides.rubyonrails.org/active_record_basics.html) for the Ruby ecosystem
