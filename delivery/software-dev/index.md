@@ -37,7 +37,7 @@ Look for these files in any new project to get an idea of how to get started.
 
 `README.md` - At a minimum, most projects will have one of these files in the root.  Typically, it explains the project's purpose, installation steps and all configuration details to start and run the project.
 
-`CONTRIBUTING.md` - This file describes how to contribute to a project.  It should explains how issues are tracked, how to submit code (likely pull requests) and the process of review and approval based on code quality details (like: test coverage or linting).
+`CONTRIBUTING.md` - This file describes how to contribute to a project.  It should explains how issues are tracked, how to submit code (likely pull requests) and the process of review and approval based on code quality details (like: test coverage or linting). [example CONTRIBUTING.md file](example_CONTRIBUTING.md)
 
 `INSTALL.md` - Some projects will have a separate file for installation instuctions.  The separate file will usually indicate a more involved build process or signal that the project has many more users than authors. 
 
@@ -83,7 +83,7 @@ When you want to make a set of changes, you create a branch. We often follow the
 ### The Pluribus Way
 
  * **Git**: We use Git whenever possible. It is by far the dominant industry standard.
- * **Git Flow**: We use the [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow approach to branching/merging/pull requests whenever possible.
+ * **GitHub Flow**: We use the [GitHub Flow]([https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://docs.github.com/en/get-started/quickstart/github-flow) workflow approach to branching/merging/pull requests whenever possible.
  * **GitHub**: We use [GitHub](https://github.com/PluribusDigital/) by default for any repos owned by Pluribus, but often work with client-provided repositories.
  * **DotEnv**: By default, we use a "dotenv" approach. The libraries differ by language, but all use a local file (e.g. `/.env`) that is also in the `.gitignore`. A `/.env.example` file shows developers what values need to be filled in. In development envirionments, the contents of the file are loaded as environment variables. In production, the same environment variables are set via other means.
  
