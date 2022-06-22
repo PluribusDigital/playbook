@@ -100,7 +100,7 @@ To work with your code you need several tools on your workstation (unless you ar
 
 ### Key Concepts
 
-**Editor / Integrated Development Environment (IDE):** You need a way to browse and edit the codebase. [Atom](https://atom.io/) or [VS Code](https://code.visualstudio.com/) are capable, free editors. Some use terminal-based tools such as [Vim](https://www.vim.org/). There are lots of IDEs that exist that are usually language or tech stack specific like [Visual Studio](https://visualstudio.microsoft.com/) for the Microsoft ecosystem or [IntelliJ IDEA](https://www.jetbrains.com/idea/) for Java development, these tend to include the ability to compile (if necessary), run and debug the code directly within the IDE.
+**Editor / Integrated Development Environment (IDE):** You need a way to browse and edit the codebase. [VS Code](https://code.visualstudio.com/) is a popular free editor. Some use terminal-based tools such as [Vim](https://www.vim.org/). There are lots of IDEs that exist that are usually language or tech stack specific like [Visual Studio](https://visualstudio.microsoft.com/) for the Microsoft ecosystem or [IntelliJ IDEA](https://www.jetbrains.com/idea/) for Java development, these tend to include the ability to compile (if necessary), run and debug the code directly within the IDE.
 
 **Terminal:** You need to be able to run commands to build or run the app locally. This is done from the command line. Most operating systems have built-in terminals, but you can also install others ([iTerm2](https://www.iterm2.com/) for Mac, [Git bash](https://gitforwindows.org/) for Windows, etc.).
 
