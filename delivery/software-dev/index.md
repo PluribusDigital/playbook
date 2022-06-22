@@ -83,7 +83,7 @@ When you want to make a set of changes, you create a branch. We often follow the
 ### The Pluribus Way
 
  * **Git**: We use Git whenever possible. It is by far the dominant industry standard.
- * **GitHub Flow**: We use the [GitHub Flow]([https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://docs.github.com/en/get-started/quickstart/github-flow) workflow approach to branching/merging/pull requests whenever possible.
+ * **GitHub Flow**: We use the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) workflow approach to branching/merging/pull requests whenever possible.
  * **GitHub**: We use [GitHub](https://github.com/PluribusDigital/) by default for any repos owned by Pluribus, but often work with client-provided repositories.
  * **DotEnv**: By default, we use a "dotenv" approach. The libraries differ by language, but all use a local file (e.g. `/.env`) that is also in the `.gitignore`. A `/.env.example` file shows developers what values need to be filled in. In development envirionments, the contents of the file are loaded as environment variables. In production, the same environment variables are set via other means.
  
