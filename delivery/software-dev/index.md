@@ -64,7 +64,7 @@ Source control allows us to work together on writing a shared codebase (really j
 
 #### Git vs. GitHub
 
-[Git](https://en.wikipedia.org/wiki/Git) is a a popular, distributed version control system that allows you to track sets of changes to code. Once you have cloned a repository to your local computer you start to make changes and save those changes, or commit them locally on your computer. If you think of the repository that you cloned to your machine as the local git also has the concept of a remote that you can push code to or pull code from. [GitHub](http://github.com/) is an incredibly popular service that hosts git remote repositories. There are many other types of version control systems and services (Microsoft TFS, AWS CodeCommit, GitLab, etc.) that all do something similar to git.
+[Git](https://en.wikipedia.org/wiki/Git) is a a popular, open source distributed version control system that allows you to track sets of changes to code. Once you have cloned a repository to your local computer you start to make changes and save those changes, or commit them locally on your computer. The repository that you cloned to your machine is your local copy, and a central server acts as the **remote** that you  push code to or pull code from. [GitHub](http://github.com/) is an incredibly popular proprietary commercial service that hosts git remote repositories. There are many other types of version control systems and services (Microsoft Azure DevOps, AWS CodeCommit, GitLab, etc.) that all provide capabilities similar to GitHub.
 
 #### Branching
 
@@ -72,18 +72,18 @@ When you want to make a set of changes, you create a branch. We often follow the
 
 #### When & How to Commit, Push
 
-**Commit**: With Git, you create commits to capture a save-point of the code base. This allows you to get to that version of the code, or even pull out a single file within the codebase as of that snapshot. Commit each time you create an incremental step forward - you added something without breaking anything. In general (but not always) your tests should pass before a commit. You should commit often - generally a few times per day.  Your commit messages should be short, clean and concise describing the changes made in this specific commit.
+**Commit**: Create commits to capture a snapshot of the code base. (Some compare this to a save point in video games.) This allows you to get to that version of the code, or even pull out a single file within that snapshot. Commit each time you create an incremental step forward - you added something without breaking anything. In general (but not always) your tests should pass before a commit. You should commit often - generally a few times per day.  Your commit messages should be short, clean and concise describing the changes made in this specific commit.
 
-**Push**: Commits happen on your local computer. That isn't part of the shared repo (e.g. GitHub.com) until you push the code to the remote repo. When you are working on a feature branch, it is generally best to push with each commit. This allows others to be able to see (or merge in) the most recent working increment of your code as needed.
+**Push**: Commits happen on your local computer. That isn't part of the shared repo (e.g. GitHub.com) until you push the code to the remote repo. When you are working on a feature branch, it is generally best to push with each commit. This allows others to be able to see the most recent working increment of your code as needed.
 
 #### Managing Secrets
 
-"Secrets" refers to things that the running application needs to know, but are generally sensitive (things like database URLs, credentials, API keys, ...) so we don't want to share secrets widely because that would create a security risk that could lead to data breaches and cost for services that a nefarious hacker could use with the secrets. For example, sharing AWS credentials on a public repo could [allow a bitcoin miners to hijack your account](https://readwrite.com/2014/04/15/amazon-web-services-hack-bitcoin-miners-github/). This is not good. Instead, we inject such secrets as environment variables (a.k.a. ENV).
+"Secrets" refers to things that the running application needs to know, but are generally sensitive (things like database URLs, credentials, API keys, ...) so we don't want to share secrets widely because that would create a security risk. For example, sharing AWS credentials on a public repo could [allow a bitcoin miners to hijack your account](https://readwrite.com/2014/04/15/amazon-web-services-hack-bitcoin-miners-github/). This is not good. Instead, we inject such secrets as environment variables (a.k.a. ENV) to the application.  Vault tools provide more sophisticated management for production systems.
 
 ### The Pluribus Way
 
  * **Git**: We use Git whenever possible. It is by far the dominant industry standard.
- * **GitHub Flow**: We use the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) workflow approach to branching/merging/pull requests whenever possible.
+ * **GitHub Flow**: We use the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) workflow approach to branching/merging/pull requests whenever possible. If we cannot get around release-specific overhead, then GitFlow works well.
  * **GitHub**: We use [GitHub](https://github.com/PluribusDigital/) by default for any repos owned by Pluribus, but often work with client-provided repositories.
  * **DotEnv**: By default, we use a "dotenv" approach. The libraries differ by language, but all use a local file (e.g. `/.env`) that is also in the `.gitignore`. A `/.env.example` file shows developers what values need to be filled in. In development envirionments, the contents of the file are loaded as environment variables. In production, the same environment variables are set via other means.
  
@@ -91,40 +91,46 @@ When you want to make a set of changes, you create a branch. We often follow the
  
   * Read Git docs [Getting started](https://git-scm.com/book/en/v1/Getting-Started) 
   * Practice using proper hygiene on real or for-fun projects
-  * [Git Flight Rules](https://github.com/k88hudson/git-flight-rules#i-want-to-start-a-local-repository) walks you through common scenarios and the corresponding git commands
+  * [Git Flight Rules](https://github.com/k88hudson/git-flight-rules#i-want-to-start-a-local-repository) and [GIT WTF](https://git.wtf/) walk you through common scenarios and the corresponding git commands
 
 
 ## Local Tools
 
-To work with your code you need several tools on your workstation (unless you are using something like AWS Cloud9). This section has a starter list.
+To work with your code you need several tools on your workstation (unless you are using something like GitHub codespaces). This section has a starter list.
 
 ### Key Concepts
 
-**Editor / Integrated Development Environment (IDE):** You need a way to browse and edit the codebase. [VS Code](https://code.visualstudio.com/) is a popular free editor. Some use terminal-based tools such as [Vim](https://www.vim.org/). There are lots of IDEs that exist that are usually language or tech stack specific like [Visual Studio](https://visualstudio.microsoft.com/) for the Microsoft ecosystem or [IntelliJ IDEA](https://www.jetbrains.com/idea/) for Java development, these tend to include the ability to compile (if necessary), run and debug the code directly within the IDE.
+**Editor / Integrated Development Environment (IDE):** You need a way to browse and edit the codebase. [VS Code](https://code.visualstudio.com/) is a popular free editor (note: this is different from the also popular Visual Studio IDE). Some use terminal-based tools such as [Vim](https://www.vim.org/). There are many IDEs that are language or tech stack specific like [Visual Studio](https://visualstudio.microsoft.com/) for the Microsoft ecosystem or [IntelliJ IDEA](https://www.jetbrains.com/idea/) for Java development. These tend to include the ability to compile (if necessary), run and debug the code directly within the IDE.
 
-**Terminal:** You need to be able to run commands to build or run the app locally. This is done from the command line. Most operating systems have built-in terminals, but you can also install others ([iTerm2](https://www.iterm2.com/) for Mac, [Git bash](https://gitforwindows.org/) for Windows, etc.).
+**Terminal:** You need to be able to run commands to build or run the app locally. This is done from the command line. Most operating systems have built-in terminals, but you can also install others ([iTerm2](https://www.iterm2.com/) for Mac, [Git bash](https://gitforwindows.org/) for Windows, etc.). Many editors or IDEs have a built in terminal client.
 
 ### The Pluribus Way
 
-Local developer tools are generally a matter of preference. There is no standard.
+Local developer tools are generally a matter of preference. There is no standard, but VS Code is emerging as a strong default.
 
  * Many editors or IDEs have configuration or data files that are created within the local folders of your cloned repository (e.g. `.idea`) and these should be added to the `.gitignore` file to avoid cluttering the repository with those files.
 
 ## Dependency Management
 
-We never start from scratch there are so many libraries we can leverage and build upon to create a custom solution. Package management tools allow us to find and download specific versions of the libraries and keep it all in sync across the project, and allow us to upgrade and maintain consistency for all devlopers and across all environments.  Things to consider is this library or package the one the community has rallied around and is becoming the defacto standard? When was the last time this project was committed too? Does there seem to be an active community around this and do they release frequently?
+We never start from scratch there are so many libraries we can leverage and build upon to create a custom solution. Package management tools allow us to find and download specific versions of the libraries as well as the libraries those depend on (the dependency tree), and allow us to upgrade and maintain consistency for all devlopers and across all environments.  
+
+Things to consider when incorporating a package: 
+
+* Is this library or package the one the community has rallied around and is becoming the defacto standard? 
+* When was the last time this project was committed too? Does there seem to be an active community around this and do they release frequently?
+* Is the functionality you are gaining worth adding the package dependency complexity, or could you replace your usage of it with a few lines of code?
 
 ### Key Concepts
 
 * __Dependency Jargon__: The terms 'dependency' or 'package' get thrown about, as do 'libraries'. Your application probably has depenedencies on other people's code. These code libraries are (hopefully) packaged into something like a node module, ruby gem, python egg, etc. Packaged libraries can be dealt with by a package manager, saving lots of headache.
 * __Package Repository__: Packaged libraries are usually available through a central package repository on the public internet such as [maven central](https://search.maven.org/), [rubygems](https://rubygems.org/), [PyPI](https://pypi.org/) or [npm](https://www.npmjs.com/). These tend to be the default, but organizations can also have private package repositories for the purpose of keeping code confidential or secure. 
 * __Manifest__: Best practice is to use a manifest file (package.json, Gemfile, requirements.txt, etc.) that describes the dependencies required by your project. This allows others who download your code to let the package manager software go out and get the right versions of everything. 
-* __Dependency Resolution__: Package managers also resolve dependencies, because your dependencies have dependencies, and those might conflict. 
+* __Dependency Resolution__: Package managers also resolve dependencies, because your dependencies also have dependencies, and those might conflict with each other. The entire set of dependencies is known as the "dependency tree." 
 * __Updates__: Packages are a great accelerator at providing lots of features and funcitonality. You packages need to be maintained and reviewed for security issues or [vulnerabilities](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) so they can quickly be updated with security updates and releases.  Also there is a need to update packages for non-security related issues otherwise it will be harder to update when there is an issue in the future.
 
 ### The Pluribus Way
 
-* Only introduce dependencies via a manifest and package manager, unless there is no other way
+* Only introduce dependencies via a manifest and package manager, unless there is no other way.
 * Perform due dilligence to investigate a new package, including update frequency, github stars/forks, code investigation, etc.
 * Everything that is added to a project is now your maintenence burden, if there is a way to add only a small portion of a larger library or even write a small amount of custom code if that meets the needs of the project.
 
