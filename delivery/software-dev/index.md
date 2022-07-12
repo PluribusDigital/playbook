@@ -136,18 +136,20 @@ Things to consider when incorporating a package:
 
 ## Testing
 
-We write code to test our code these are referred to as automated tests, this may sound like double-work but saves a ton of time. We know instantly when something breaks if we have adaquate test coverage on a project.  Also test coverage allows for code to be refactored with a higher level of confidence as we have tests that confirm the features and functionality what were passing before the code change, and if the tests are passing when you are done with the refactoring you should have working code.
+We write code to test our code these are referred to as automated tests. This may sound like double-work but saves time and improves quality. With adequate test coverage on a project, we know instantly when something breaks. Test coverage allows us to refactor code with a high level of confidence, as we have tests that confirm the features and functionality what were passing before the code change. If the tests are passing when you are done with the refactoring then you should have working code.
 
 ### Key Concepts
-* _Types of testing:_ [There are many different ways to test software](https://en.wikipedia.org/wiki/Software_testing), but developers typically mean unit tests.  These tests focus on a single function or class.  When many classes or functions are tested together, this is known as integration testing.  Another popular type of testing is behavior testing, which tests the application as a whole and can use special tooling to help automate these tests.
-* _Test coverage:_ Even a simple function will have if statements, so multiple tests will be needed to make sure all code paths in a function are exercised.  Test coverage is used to show how much of the code is being tested and which parts are not covered.
+* _Types of testing:_ [There are many different ways to test software](https://en.wikipedia.org/wiki/Software_testing), but unit tests are typically the first consideration. These tests focus on a single function or class.  When many classes or functions are tested together, this is known as integration testing. Another popular type of testing is behavior testing, which tests the application as a whole and can use special tooling to help automate these tests.
+* _Test coverage:_ Even a simple function will have branches (e.g. `if` statements), so multiple tests will be needed to make sure all code paths in a function are exercised. Test coverage is used to show how much of the code is being tested and which parts are not covered.
 * _Testing provides early warnings:_  Sometimes changes in one part of the application will accidently break other parts.  With tests, these side effects are surfaced immediately and can be addressed in the same pull request.  Without tests, the bugs are passed along and will be found at a much later time which can be costly and time consuming.
-* _Testing improves Maintainability:_ Write tests not so much for yourself, but for the dozens of other developers that will read and maintain your code over many years.  Oftentimes, a test acts as a secondary means of communicating the purpose of a block of code.  If the maintainer cannot understand the original code, the tests exercising it may provide additional insight.
+* _Testing improves maintainability:_ Write tests not so much for yourself, but for the dozens of other developers that will read and maintain your code over many years.  Oftentimes, a test acts as a secondary means of documentation - communicating the purpose of a block of code. If the maintainer cannot understand the original code, the tests exercising it may provide additional insight.
 
 ### The Pluribus Way
-* _Coverage:_ We believe that your code should have tests that cover at least 80% of your code base, with special attention given to key functions or modules.
-* _Passing Tests:_ We believe that code is not ready for review until all the tests are passing
+* _Coverage:_ Code should have tests that cover at least 80-90% of your code base, with special attention given to key functions or modules.
+* _Quality:_ Tests should exercise high-value functionality and have meaningful assertion statements. Sloppy tests written only to get coverage metrics up are not helpful.
+* _Passing Tests:_ Code is not ready for review until all the tests are passing.
 * _Testing as a start:_ A great way to familiarize yourself with an existing project is to run the tests and add missing coverage.  This will give you experience building, running and understanding the code while contributing to the overall health of the project.
+* _Test-driven Development (TDD):_ TDD is an encouraged but not mandated practice.
 
 ## Build Process & Tools
 
@@ -155,11 +157,11 @@ There's app code, then there's code that helps us write the code. Some languages
 
 ### Key Concepts
 
- * _Environment Config:_ The build process can adapt the code for different environments, such as which database you connect to or many other things.
- * _Transpiling:_ In Javascript, code is often not written in Javascript. It is written in Typescript, JSX, CoffeeScript, or some other variant. Transpiling translates the source code to vanilla Javascript. This allows you to write code in a preferred language, but still have the code run in environments (like web browsers) that only support certain languages/versions.
- * _Source maps:_ Transpiled code can be hard to debug, since you wrote it in one style, but it gets run in another - and this throws off line number references for errors. Source maps basically provide for friendly error messages to show you where in the original source the error originated - as opposed to where in the transpiled code the error materialized. 
- * _Minification:_ Frontend in-browser apps are typically minified. This is the process of basically compressing the code to get rid of white space, long variable names, etc. It makes the code fairly unreadable to humans, but quicker to download for the browser. 
- * _Tree shaking:_ You may load lots of libraries, but only use small bits of each. Tree shaking is a process to prune the codebase to only what you are using so that less is sent to the browser, and less has to be dealt with by the machine running it. 
+ * _Environment Config:_ The build process can adapt the code for different environments, such as which database you connect to.
+ * _Transpiling:_ In Javascript, code is often not written in Javascript. It is written in Typescript, JSX, or some other variant. Transpiling translates the source code to vanilla Javascript. This allows you to write code in a preferred language, but still have the code run in environments (like web browsers) that only support certain languages/versions.
+ * _Source maps:_ Transpiled code can be hard to debug, since you wrote it in one language, but it gets run in another - and this throws off line number references for errors. Source maps basically provide for friendly error messages to show you where in the original source the error originated - as opposed to where in the transpiled code the error materialized.
+ * _Minification:_ Frontend in-browser apps are typically minified. This is the process of compressing the code to get rid of white space, long variable names, etc. It makes the code fairly unreadable to humans, but quicker to download for the browser.
+ * _Tree shaking:_ You may bring in many libraries, but only use small bits of each. Tree shaking is a process to prune the codebase to only what you are using so that less is sent to the browser, and less has to be loaded by the machine running it.
 
 
 ### The Pluribus Way
@@ -170,25 +172,23 @@ There's app code, then there's code that helps us write the code. Some languages
 
 A Continuous Integration (CI) process looks for changes in the code (i.e. new commits being pushed or merged), then automatically tries to build, run, test, analyze, and deploy the code.
 
-
 ### Key Concepts
-* _Source of truth:_ Sometimes, you may write code that works on your machine, only to discover that it doesn't work on other machines. There may be a forgotten configuration or pre-condition that prevents it from running smoothly or at all. A CI server can act as an impartial judge of whether the code base works by building, installing and testing each change.  Unless it works on the CI server, it doesn't _work_.
+* _Source of truth:_ Sometimes, you may write code that works on your machine, only to discover that it doesn't work on other machines. There may be a forgotten configuration or pre-condition that prevents it from running smoothly or at all. A CI server can act as an impartial judge of whether the code base works by building, installing and testing each change from scratch.  Unless it works on the CI server, it doesn't _work_.
 * _Automated build:_ Having a server rebuild the codebase after every change means that the entire build process has to be scripted.  While this requires that the development team has to gain some fluency with operational concepts like environment configuration and bash scripts, it makes sure that the build process is well-understood, consistent and version-controlled.
-* _Dependency security audit_: Dependencies (borrowed libraries of code) are a primary vector for the introduction of security vulnerabilities in your app. Well-maintained libraries release patch-level versions to fix vulnerabilities. Tools like `npm audit` and capabilities of tools like Artifactory and Nexus allow the audit of dependencies to find such inherited vulnerabilities. 
+* _Dependency security audit_: Dependencies (borrowed libraries of code) can introduce security vulnerabilities in your app. Well-maintained libraries release patch-level versions to fix vulnerabilities. Tools like `npm audit` and capabilities of tools like Artifactory and Nexus allow the audit of dependencies to find such inherited vulnerabilities. 
 * _Automated tests:_ Once the codebase is built, the server should be able to run a suite of tests to validate the functionality and verify nothing has broken.  Again, this will rely on scripts to initialize the environment and execute the tests.
-* _Capture Metrics:_ If the test suite ran successfully, the CI server can use other tools to measure code coverage, code complexity, compliance with style and a host of other metrics that can be tracked to show how the code has changed, and hopefully, improved over time.
-* _Validate pull requests:_ A CI server can be used as the first step in a PR review process.  Before other developers get a chance to review the code, it can be automatically built, tested and measured.  This frees up the development team to perform high-quality review tasks only after the low-level checks have succeeded.
+* _Code analysis:_ If the test suite ran successfully, the CI server can use other tools to measure code coverage, code complexity, compliance with style and a host of other metrics that can be tracked to show how the code has improved over time.
+* _Validate pull requests:_ A CI server can be used as the first step in a PR review process.  Before other developers get a chance to review the code, it can be automatically built, tested and analyzed. This frees up the development team to perform high-quality review tasks only after the low-level checks have succeeded.
 
 ### The Pluribus Way
-* _Use a CI server:_ There are several free CI servers available.  We use [Travis](https://travis-ci.org/PluribusDigital) or [CircleCI](https://circleci.com/gh/PluribusDigital) for open source projects, and those or others for customer work.  These should be configured to build and test every pull request.
-* _Metrics:_ Depending on the application, it may be important to use analyzers to check code quality.  In the past we have used [Code Climate](https://codeclimate.com/) to perform static analysis and [Coveralls](https://coveralls.io/github/PluribusDigital) to track code coverage.  Both of these tools should be integrated with the CI server during PR builds.
+* _Use a CI server:_ There are several free CI servers available.  We use GitHub Actions as a default for internal projects, and that or others (Jenkins, Azure DevOps, etc.) for customer work.  These should be configured to build and test every push and pull request.
+* _Metrics:_ Static code analysis tools check code quality. SonarQube is a common tool to do so, and some static analysis capabilities are built into GitHub.
 * _Perform security scans_: Static code analysis products like the above code quality tools, or standalone security scan solutions, should be used to find potentially unsecure code (i.e. of the code that we write).
-* _Enforce security audits_: Dependency audit results of high severity should "break the build", and not allow the app to progress to deployment. This is generally a quick fix (updating the library to the latest patch version), but could occasionally result in replacing a library that is not well maintained enough to issue fixes.
-
+* _Enforce security audits_: High severity dependency audit results should "break the build", and not allow the app to progress to deployment. This is generally a quick fix (updating the library to the latest patch version), but could occasionally result in replacing a library that is not well maintained enough to issue fixes.
 
 ## Deployment
 
-The app has to run somewhere, generally some virtual server on the cloud.
+The app has to run somewhere, generally some container or virtual server on the cloud.
 
 ### Key Concepts
 
