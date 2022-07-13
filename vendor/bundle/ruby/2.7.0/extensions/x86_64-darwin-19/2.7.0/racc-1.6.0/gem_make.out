@@ -1,0 +1,17 @@
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+/Users/benmorris/.rbenv/versions/2.7.0/bin/ruby -I /Users/benmorris/.rbenv/versions/2.7.0/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220713-64126-1lz77nz sitelibdir\=./.gem.20220713-64126-1lz77nz clean
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220713-64126-1lz77nz sitelibdir\=./.gem.20220713-64126-1lz77nz
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220713-64126-1lz77nz sitelibdir\=./.gem.20220713-64126-1lz77nz install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220713-64126-1lz77nz/racc

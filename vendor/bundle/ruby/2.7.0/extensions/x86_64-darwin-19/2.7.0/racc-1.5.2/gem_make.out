@@ -1,0 +1,16 @@
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+/Users/benmorris/.rbenv/versions/2.7.0/bin/ruby -I /Users/benmorris/.rbenv/versions/2.7.0/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220711-74557-b8fc6v sitelibdir\=./.gem.20220711-74557-b8fc6v clean
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220711-74557-b8fc6v sitelibdir\=./.gem.20220711-74557-b8fc6v
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220711-74557-b8fc6v sitelibdir\=./.gem.20220711-74557-b8fc6v install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220711-74557-b8fc6v/racc

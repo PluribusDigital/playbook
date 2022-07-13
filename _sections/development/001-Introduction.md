@@ -7,3 +7,10 @@ This guide allows STSI staff and teaming partners to be synced on what to expect
 1. **Expert Developers**: This guide serves as a reference of STSI norms of preferences in order to be consistent with other team members.
 
 2. **Still-learning Developers**: You need an introduction to concepts, then a path to gain proficiency. Some concepts you might understand, while others are new. This guide points you in the direction of how to learn the concepts and related practices.
+
+<div class="mermaid">
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+</div>

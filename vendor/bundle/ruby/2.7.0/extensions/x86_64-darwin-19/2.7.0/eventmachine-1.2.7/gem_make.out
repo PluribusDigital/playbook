@@ -1,0 +1,16 @@
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/benmorris/.rbenv/versions/2.7.0/bin/ruby -I /Users/benmorris/.rbenv/versions/2.7.0/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20220711-74557-1t02v9d sitelibdir\=./.gem.20220711-74557-1t02v9d clean
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20220711-74557-1t02v9d sitelibdir\=./.gem.20220711-74557-1t02v9d
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/benmorris/repos/pluribus/playbook/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20220711-74557-1t02v9d sitelibdir\=./.gem.20220711-74557-1t02v9d install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20220711-74557-1t02v9d
