@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<div class="section-header">
 <h1>PLAYBOOK: {{page.title}}</h1>
 <p><em>{{page.description}}</em></p>
-</div>
 
 {% assign sections = site.sections | where: "topic", page.topic %}
 {% for section in sections %}
