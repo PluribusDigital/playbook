@@ -53,7 +53,7 @@ CIO-SP3 SB Contract | [75N98120D00076](https://pluribusdigital.com/content/work/
 
 ### Logo Variations
 
-Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file or view the [parent directory](https://github.com/PluribusDigital/playbook/tree/main/branding). 
+Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file or view the [parent directory](https://github.com/PluribusDigital/playbook/tree/main/branding). Additionally, [logos are in a PowerPoint file](https://github.com/PluribusDigital/playbook/blob/main/branding/pluribus-logos-in-ppt.pptx?raw=true) for ready copy and paste.
 
 | Logo Format | Color on White | Color on Black | Black on White | White on Black |
 | --- | --- | --- | --- | --- |
