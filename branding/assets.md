@@ -28,6 +28,7 @@ UEI | EBC8TT6W1LR7
 CAGE Code | 1TAD9
 GSA Schedule 70 Contract | [GS‐35F‐404DA](https://pluribusdigital.com/content/work/contract_vehicles/gsa_70)
 CIO-SP3 SB Contract | [75N98120D00076](https://pluribusdigital.com/content/work/contract_vehicles/cio_sp3)
+Capability Statement | [Pluribus Digital 1-page Capability Statement](https://pluribusdigital.com/files/Pluribus_Digital_Overview.pdf)
 
 ### NAICS Codes
 
