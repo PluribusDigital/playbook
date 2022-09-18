@@ -138,4 +138,4 @@ Before entering into any teaming agreement, we must perform some basic validatio
 
 - [ ] Check [SAM.gov](https://www.sam.gov) to confirm status of firm, particularly any negative filings
 - [ ] Check with professional networks (e.g. mine common LinkedIn connections) to ideally find someone who has worked with the firm before
-- [ ] Do basic web searching to make sure there are no major public issues
+- [ ] Perform a due dilligence web search to make sure there are no major public issues
