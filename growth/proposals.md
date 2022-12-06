@@ -18,13 +18,29 @@ This guide allows Pluribus staff and teaming partners to be synced on what to ex
 > 
 > *― George Orwell, Politics and the English Language*
 
-### General
+### Compliant & Compelling
+
+Proposals must address the Request for Proposals (RFP) instructions. It can be more challenging than it sounds to follow instructions. Smart, creative people sometimes get excited about important points to make that would really benefit the customer. However, a proposal full of beautifully explained brilliant ideas will lose if it is not directly addressing the instructions. 
+
+> Proposals are scored, not read.
+> 
+> *- Proposal managers everywhere*
+
+Proposal reviewers typically have a scorecard that is aligned to the evaluation criteria and/or proposal intstructions. They read a proposal, and provide scores and notes for each section of that scorecard. If they can't find something that addresses the given point, then they can't score it highly. 
+
+In order to create a compliant and compelling proposal:
+
+* _Create an outline:_ A [good outline](https://redteamconsulting.com/2020/02/20/four-steps-to-building-a-winning-proposal-outline/) sets you up for success and avoids wasted time building content that will be cut out. It should logically follow the proposal instructions (section L) and evaluation criteria (section M). Within the outline, copy in the proposal text snippets that the section will address. In the proposal section titles, you can even include RFP section number references, such as `4.2 DevOps Approach (L.2.b)`.
+* _Write compliant content_: Mirror RFP instruction statements using the **same wording** as the proposal, ideally with key words as section titles or otherwise easy to find. If the RFP asks for "your DevOps approach to achieve freqeuent production releases", then the proposal text should be something like "Our DevOps approach to achieve frequent production releases includes...". 
+* _Write compelling content_: It's not enough just to say we'll do it. Give them confidence that we will be succesful. Clearly explain our approach and share real results. In the DevOps example above, we can share how we've introduced specific named tools and practices. We explain how that helps with frequent production releases. We cite an example on a named project where we are releasing to production 10 times per week.
+
+### General Editing Rules
 
  * _Short paragraphs:_ If a paragraph is longer than 5 lines, there should be a good reason why. Is it really 2 ideas (thus 2 paragraphs)? Should some bulk of content be broken into bullets?
  * _Use subheadings:_  Some form of subheading should group each 1-3 paragraphs. A half page or more of unbroken text is an issue.
  * _Use bullets:_ Break large paragraphs into bullets.
 
-### Specific Rules
+### Specific Editing Examples
 
 | Rule | Bad Example(s) | Good Example(s) |
 | --- | --- | --- |
