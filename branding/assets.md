@@ -17,7 +17,7 @@ Pluribus Digital is a small woman-owned digital services firm supporting public 
 
 ... | Additional Details
 ------- | -----
-Full Company Name | Solution Technology Systems, Inc. d/b/a Pluribus Digital
+Full Company Name | Pluribus Digital, Inc. d/b/a Solution Technology Systems, Inc. 
 URL | [https://pluribusdigital.com/](https://pluribusdigital.com/)
 Address | 2300 Wilson Blvd #700 <br /> Arlington, VA 22201
 Twitter | [@pluribusd](https://twitter.com/pluribusd)
