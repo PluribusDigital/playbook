@@ -10,13 +10,13 @@ We don’t change our core voice attributes (who we are) based on audience or me
 
 ### Usage & Variations
 
-**Pluribus Digital** is the name by which we officially do business. There are some variations of that which are acceptable, and some that are not.
+**Pluribus Digital, Inc.** is the name by which we officially do business. There are some variations of that which are acceptable, and some that are not.
 
 _:heavy_check_mark: Acceptable Variations:_
 
-* Pluribus Digital (normal full name)
-* Solution Technology Systems, Inc. d.b.a. Pluribus Digital (long form official name for some legal contexts)
+* Pluribus Digital (normal full name without the "inc." formality)
 * Pluribus (short version for repeated use in a document)
+* Pluribus Digital, Inc. d.b.a. Solution Technology Systems, Inc. (long form official name including DBA for some legal contexts - if it is important to tie our identity to work done under our former name)
 
 _:x: Unacceptable Variations:_
 
