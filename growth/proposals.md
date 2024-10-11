@@ -147,8 +147,8 @@ __Review For__:
  2. When the draft is ready for review, __Author__ places it in the `70_Drafts/[color]/Ready` folder.
  3. __Reviewer__ turns on track changes, creates MS Word comments. 
  4. If specified, __Reviewer__ completes an evaluation/compliance scorecard spreadsheet.
- 5. When done with review, __Reviewer__ places document and scorecard in the `70_Drafts/[color]/Reviewed`
- 6. When all reviews are done for a section, the __Proposal Manager__ consolidates reviews into a single document in the `Reviewed` folder. In this case, the PM puts the inidividual source review files in a `Reviewed/Original` subfolder.
+ 5. (If for access reasons we can't work in a live single doc) When done with review, __Reviewer__ places document and scorecard in the `70_Drafts/[color]/Reviewed`
+ 6. (If for access reasons we can't work in a live single doc) When all reviews are done for a section, the __Proposal Manager__ consolidates reviews into a single document in the `Reviewed` folder. In this case, the PM puts the inidividual source review files in a `Reviewed/Original` subfolder.
  7. __Author__ takes the conslidated review document to move forward with edits.
 
 ## Folder Structure
