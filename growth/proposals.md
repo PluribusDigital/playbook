@@ -159,6 +159,7 @@ Proposal folders are organized as follows ("#=>" is a comment):
 Proposals/
   [Opportunity Name + YYYY_MM]/  #=> (see note below, include the year-month at end of name)
     00_Background/               #=> (SHARE) assorted research documents
+    01_Proposal_Management       #=> (SHARE) files to organize the proposal effort within the team
     10_Teaming/
       NDAs/
       TAs/
