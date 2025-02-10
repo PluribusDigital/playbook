@@ -29,7 +29,7 @@ Pluribus Digital specializes in the capabilities required for cross-functional p
 ------- | -----
 Full Company Name | Pluribus Digital, Inc. d/b/a Solution Technology Systems, Inc. 
 URL | [https://pluribusdigital.com/](https://pluribusdigital.com/)
-Address | 2300 Wilson Blvd #700 <br /> Arlington, VA 22201
+Address | 2300 Wilson Blvd STE 700 <br /> Arlington, VA 22201-5435
 Twitter | [@pluribusd](https://twitter.com/pluribusd)
 LinkedIn | [PluribusDigital](https://www.linkedin.com/company/PluribusDigital/)
 Socioeconomic Status | Woman-Owned Small Business (WOSB)
