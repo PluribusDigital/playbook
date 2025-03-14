@@ -20,7 +20,7 @@ Pluribus Digital specializes in the capabilities required for cross-functional p
 
 ### Additional Company Facts
 
-* Our experience inlcudes supporting high-profile systems at USCIS, GSA, CDC, FDIC, Library of Congress, and VA.
+* Our experience includes supporting high-profile systems at USCIS, GSA, CDC, FDIC, Library of Congress, and VA.
 * We are founding members of the Digital Services Coalition and the Digital WOSB Alliance.
 * We have experience implementing mature, modern practices at scale (10+ teams, 80+ people).
 
