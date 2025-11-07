@@ -6,8 +6,6 @@ Documentation on how we do things - the "source code" for our organization. The 
 
 The following guides outline how we operate.
 
-* __Delivery__
-  * [Software Development](delivery/software-dev/index.md) - high-level guide to creating software
 * __Communications__
   * [Slack](communications/slack.md) - how we use Slack to collaborate
 * __Growth__
