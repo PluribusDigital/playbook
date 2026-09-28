@@ -64,16 +64,9 @@ Capability Statement | [Pluribus Digital 1-page Capability Statement](https://pl
 
 ### Logo Variations
 
-Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file or view the [parent directory](https://github.com/PluribusDigital/playbook/tree/main/branding). Additionally, [logos are in a PowerPoint file](https://github.com/PluribusDigital/playbook/blob/main/branding/pluribus-logos-in-ppt.pptx?raw=true) for ready copy and paste.
+Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file or view the [parent directory](https://github.com/PluribusDigital/playbook/tree/main/branding/logos). Additionally, [logos are in a PowerPoint file](https://github.com/PluribusDigital/playbook/blob/main/branding/logos/pluribus-logos-in-ppt.pptx?raw=true) for ready copy and paste.
 
-| Logo Format | Color on White | Color on Black | Black on White | White on Black |
-| --- | --- | --- | --- | --- |
-| **"P" (No Text)** | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![Color P Logo](pluribus-logo-notext-color-on-white.svg) | ![1 color black-only P logo](pluribus-logo-notext-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-notext-white-on-black.svg) |
-| **"Tall" (Text Below)** | ![Color Pluribus Digital vertical logo, black text](pluribus-logo-tall-color-on-white.svg) | ![Color Pluribus Digital vertical logo, white text](pluribus-logo-tall-color-on-black.svg) | ![1 color black-only Pluribus Digital vertical logo with text](pluribus-logo-tall-black-on-white.svg) | ![1 color white-only vertical logo with text](pluribus-logo-tall-white-on-black.svg) |
-| **"Wide" (Text to Right)** | ![Color Pluribus Digital wide logo, black text](pluribus-logo-wide-color-on-white.svg) | ![Color Pluribus Digital wide logo, white text](pluribus-logo-wide-color-on-black.svg) | ![1 color black-only Pluribus Digital wide logo with text](pluribus-logo-wide-black-on-white.svg) | ![1 color white-only P logo](pluribus-logo-wide-white-on-black.svg) |
-
-
-## Logo/Brand Colors
+## Logo Colors
 
 ```
 Dark Red
@@ -118,4 +111,3 @@ K: 0		#00adee
 **Logo Fonts:** Proxima Nova Bold, Proxima Nova Medium
 
 **Web Site Fonts:** Poppins (headers), Roboto (body)
-
