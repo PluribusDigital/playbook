@@ -64,7 +64,7 @@ Capability Statement | [Pluribus Digital 1-page Capability Statement](https://pl
 
 ### Logo Variations
 
-Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file or view the [parent directory](https://github.com/PluribusDigital/playbook/tree/main/branding/logos). Additionally, [logos are in a PowerPoint file](https://github.com/PluribusDigital/playbook/blob/main/branding/logos/pluribus-logos-in-ppt.pptx?raw=true) for ready copy and paste.
+Logos are available below. Note that some that are designed for dark backgrounds may display faintly or not at all. Click through to see the logo file or view the [parent directory](https://github.com/PluribusDigital/playbook/tree/main/branding/logos). Additionally, [logos are in a PowerPoint file](https://github.com/PluribusDigital/playbook/raw/refs/heads/main/branding/logos/pluribus-logos-in-ppt.pptx) for ready copy and paste.
 
 ## Logo Colors
 
