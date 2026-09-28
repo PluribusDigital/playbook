@@ -6,8 +6,6 @@ Documentation on how we do things - the "source code" for our organization. The 
 
 The following guides outline how we operate.
 
-* __Communications__
-  * [Slack](communications/slack.md) - how we use Slack to collaborate
 * __Growth__
   * [Opportunity Tracking](growth/opportunities.md) - how we track business development opportunities
   * [Proposals](growth/proposals.md) - how we work together, internally or with team members, to produce a proposal
